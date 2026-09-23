@@ -11,9 +11,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
 :root{
-  --night:#14100D; --shell:#1E1813; --shell2:#281F18; --rule:#3B2F25;
-  --chrome:#E3CFAE; --dim:#A58F77; --ink:#FBF3E6;
-  --signal:#D9621F; --ember:#F2B143; --maroon:#8E2C2C;
+  --night:#F6EEDF; --shell:#FFFAF1; --shell2:#F0E4CE; --rule:#DFCDAF;
+  --chrome:#6B4A32; --dim:#8A6F57; --ink:#2B1D14;
+  --signal:#C4561A; --ember:#D98E1F; --maroon:#7E2323;
   --good:#3E9E6E; --bad:#B8433C;
   --display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
   --body:"Barlow Semi Condensed","Arial Narrow",Arial,sans-serif;
@@ -21,15 +21,15 @@
 *{box-sizing:border-box}
 html,body{margin:0;background:var(--night);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.45}
 body{padding-top:env(safe-area-inset-top,0);padding-bottom:env(safe-area-inset-bottom,0);
-  background:radial-gradient(1200px 500px at 85% -120px,rgba(217,98,31,.16),transparent 70%),radial-gradient(900px 420px at 5% -160px,rgba(142,44,44,.22),transparent 70%),var(--night)}
+  background:radial-gradient(1200px 500px at 85% -120px,rgba(217,98,31,.10),transparent 70%),radial-gradient(900px 420px at 5% -160px,rgba(142,44,44,.08),transparent 70%),var(--night)}
 a{color:var(--chrome)}
 :focus-visible{outline:2px solid var(--ember);outline-offset:2px}
 .wrap{max-width:1180px;margin:0 auto;padding:0 20px}
 
 /* header */
-header{border-bottom:1px solid var(--rule);background:linear-gradient(180deg,rgba(20,16,13,.2),rgba(20,16,13,.95));border-top:3px solid var(--maroon)}
+header{border-bottom:1px solid var(--rule);background:linear-gradient(180deg,rgba(255,250,241,.4),rgba(255,250,241,.95));border-top:4px solid var(--maroon)}
 .brand{display:flex;align-items:center;gap:16px;padding:18px 0 10px}
-.brand img{width:68px;height:68px;filter:drop-shadow(0 0 14px rgba(217,98,31,.35));border-radius:50%}
+.brand img{width:68px;height:68px;filter:drop-shadow(0 2px 6px rgba(80,40,20,.35));border-radius:50%}
 .brand h1{font-family:var(--display);font-weight:900;font-size:40px;line-height:.9;margin:0;letter-spacing:.5px}
 .brand .sub{color:var(--dim);font-size:15px;margin-top:4px}
 .status{margin-left:auto;display:flex;align-items:center;gap:8px;font-size:14px;color:var(--chrome);
@@ -63,17 +63,16 @@ h3{font-family:var(--display);font-weight:800;font-size:24px;margin:36px 0 10px;
 table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums;font-size:15px}
 th,td{padding:8px 10px;text-align:right;white-space:nowrap}
 th{color:var(--dim);font-weight:600;font-size:13px;border-bottom:1px solid var(--rule);background:var(--shell2);position:sticky;top:0}
-td{border-bottom:1px solid rgba(59,47,37,.6)}
+td{border-bottom:1px solid rgba(223,205,175,.8)}
 th:first-child,td:first-child,th.l,td.l{text-align:left}
 tr:last-child td{border-bottom:0}
 td.team{font-weight:700;color:var(--ink)}
 tr.cut td{border-bottom:2px solid var(--signal)}
 .tag{display:inline-block;font-size:12px;font-weight:700;padding:1px 6px;border-radius:3px;margin-left:6px;vertical-align:1px}
-.tag.bye{background:var(--chrome);color:var(--night)}
+.tag.bye{background:var(--maroon);color:#FFF6E8}
 .tag.po{border:1px solid var(--chrome);color:var(--chrome)}
-.W{color:#6CCB98;font-weight:700}.L{color:#E86A60;font-weight:700}.T{color:#E0A43A;font-weight:700}
+.W{color:#2E7D4F;font-weight:700}.L{color:#B3261E;font-weight:700}.T{color:#A86B12;font-weight:700}
 .muted{color:var(--dim)}
-.tnm{font-weight:500;font-size:12px}
 
 /* Weekly median chart */
 .line-card{background:var(--shell);border:1px solid var(--rule);border-radius:8px;padding:20px 22px 16px;position:relative}
@@ -84,16 +83,16 @@ tr.cut td{border-bottom:2px solid var(--signal)}
 .bar{display:grid;grid-template-columns:118px 1fr 70px 64px;align-items:center;gap:10px;height:32px}
 .bar .nm{font-weight:700;font-size:15px}
 .bar .track{position:relative;height:18px}
-.bar .fill{height:100%;border-radius:2px;background:linear-gradient(90deg,#3E3026,#8C7358)}
+.bar .fill{height:100%;border-radius:2px;background:linear-gradient(90deg,#E4D5BC,#C2A583)}
 .bar.above .fill{background:linear-gradient(90deg,#8E2C2C,#D9621F 70%,#F2B143)}
 .bar.below .nm,.bar.below .pts{color:var(--dim)}
 .bar .pts{font-family:var(--display);font-weight:800;font-size:20px;text-align:right}
 .bar .res{font-size:13px;text-align:right}
 .median{position:absolute;top:-8px;bottom:-8px;width:2px;background:var(--ember);
-  box-shadow:0 0 10px 2px rgba(242,177,67,.7),0 0 26px 4px rgba(217,98,31,.4);pointer-events:none}
-.median span{position:absolute;bottom:-20px;left:50%;transform:translateX(-50%);font-size:12px;font-weight:700;color:var(--ember);white-space:nowrap}
+  box-shadow:0 0 8px 2px rgba(217,142,31,.55),0 0 18px 3px rgba(196,86,26,.25);pointer-events:none}
+.median span{position:absolute;bottom:-20px;left:50%;transform:translateX(-50%);font-size:12px;font-weight:700;color:var(--signal);white-space:nowrap}
 .line-card .note{margin-top:26px}
-.line-split{grid-column:1/-1;height:1px;margin:4px 0;border-top:1px dashed rgba(242,177,67,.55)}
+.line-split{grid-column:1/-1;height:1px;margin:4px 0;border-top:1px dashed rgba(196,86,26,.5)}
 
 /* grids & cards */
 .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:18px}
@@ -134,7 +133,6 @@ footer{border-top:1px solid var(--rule);color:var(--dim);font-size:14px;padding:
 @media (max-width:640px){
   .brand h1{font-size:27px}.brand img{width:54px;height:54px}
   .status span{display:none}
-  .tnm{display:none}
   .bar{grid-template-columns:86px 1fr 58px 44px;gap:6px}
   .bar .nm{font-size:13px}.bar .pts{font-size:17px}
   .line-head .big{font-size:34px}
@@ -164,7 +162,7 @@ footer{border-top:1px solid var(--rule);color:var(--dim);font-size:14px;padding:
 const PAGES=[["standings","Standings"],["weekly","Weekly"],["categories","Stat Categories"],["positions","Positions"],["teams","Teams"],["history","League History"]];
 const POS=["QB","RB","WR","TE","K","DEF"];
 const GROUPS=["Passing","Rushing","Receiving","Misc Offense","Kicking","Defense"];
-const SERIES=["#D9621F","#8E2C2C","#F2B143","#C9B38A","#7A4A2E","#F6E3C0"];
+const SERIES=["#D9621F","#7E2323","#E8A93A","#B8986F","#4A2E1F","#C97B5B"];
 let D=null, charts={};
 const $=s=>document.querySelector(s);
 const f2=x=>(+x).toFixed(2), f1=x=>(+x).toFixed(1);
@@ -181,8 +179,8 @@ function heat(v,lo,hi,invert){
 function colHeat(rows,key,invert){const v=rows.map(r=>+r[key]);const lo=Math.min(...v),hi=Math.max(...v);return r=>heat(+r[key],lo,hi,invert)}
 function mkChart(id,cfg){if(charts[id])charts[id].destroy();const el=document.getElementById(id);if(!el||!window.Chart)return;charts[id]=new Chart(el,cfg)}
 function baseOpts(extra={}){return Object.assign({responsive:true,maintainAspectRatio:false,animation:false,
-  plugins:{legend:{labels:{color:"#E3CFAE",font:{family:"Barlow Semi Condensed",size:13}}},tooltip:{mode:"index",intersect:false}},
-  scales:{x:{ticks:{color:"#A58F77"},grid:{color:"#2E251D"}},y:{ticks:{color:"#E3CFAE"},grid:{color:"#2E251D"}}}},extra)}
+  plugins:{legend:{labels:{color:"#5A4030",font:{family:"Barlow Semi Condensed",size:13}}},tooltip:{mode:"index",intersect:false}},
+  scales:{x:{ticks:{color:"#8A6F57"},grid:{color:"#E8DBC4"}},y:{ticks:{color:"#5A4030"},grid:{color:"#E8DBC4"}}}},extra)}
 function picker(id,items,cur,cb){
   return `<div class="picker" id="${id}">${items.map(([v,l])=>`<button aria-pressed="${v==cur}" data-v="${esc(v)}">${esc(l)}</button>`).join("")}</div>`;
 }
@@ -246,7 +244,6 @@ function show(p){
   history.replaceState(null,"","#"+p);
   if(!rendered[p]){rendered[p]=1;({standings:rStandings,weekly:rWeekly,categories:rCategories,positions:rPositions,teams:rTeams,history:rHistory})[p]()}
 }
-const tn=t=>D.team_names&&D.team_names[t]&&D.team_names[t]!=t?` <span class="muted tnm">${esc(D.team_names[t])}</span>`:"";
 const regWeeks=()=>[...new Set(D.weekly.map(w=>w.week))].sort((a,b)=>a-b);
 
 /* ---------------- Weekly median chart ---------------- */
@@ -276,7 +273,7 @@ function rStandings(){
   const hLuck=colHeat(s,"luck"), hPerf=colHeat(s,"perf_rating"), hPF=colHeat(s,"PF"), hPA=colHeat(s,"PA",true);
   $("#p-standings").innerHTML=`<h2>Standings</h2>
   <div class="tbl" style="margin-top:14px"><table data-cut="6"><thead><tr><th>Seed</th><th class="l">Team</th><th>Record</th><th>Win %</th><th>H2H</th><th>vs. Median</th><th>PF</th><th>PA</th><th>PPG</th><th title="Record if you played every team every week">All-play</th><th title="50 is neutral. Above 50: more H2H wins than your scores earned">Luck</th><th title="Average weekly score vs. the league, 0 to 100">Perf.</th></tr></thead><tbody>
-  ${s.map(r=>`<tr class="${r.seed==6?"cut":""}"><td>${r.seed}</td><td class="team l">${esc(r.team)}${tn(r.team)}${r.status=="bye"?'<span class="tag bye">Bye</span>':r.status=="playoff"?'<span class="tag po">In</span>':""}</td>
+  ${s.map(r=>`<tr class="${r.seed==6?"cut":""}"><td>${r.seed}</td><td class="team l">${esc(r.team)}${r.status=="bye"?'<span class="tag bye">Bye</span>':r.status=="playoff"?'<span class="tag po">In</span>':""}</td>
    <td><b>${r.W}-${r.L}-${r.T}</b></td><td>${pct(r.win_pct)}</td><td>${r.h2h}</td><td>${r.median}</td>
    <td style="${hPF(r)}">${f2(r.PF)}</td><td style="${hPA(r)}">${f2(r.PA)}</td><td>${f2(r.PPG)}</td><td>${r.allplay}</td>
    <td style="${hLuck(r)}">${f1(r.luck)}</td><td style="${hPerf(r)}">${f1(r.perf_rating)}</td></tr>`).join("")}
@@ -309,8 +306,8 @@ function rWeekly(){
    <tr class="pin-bot"><td class="l muted">Median</td>${wks.map(w=>{const r=D.weekly.find(x=>x.week==w);return`<td class="muted">${r.median!=null?f2(r.median):""}</td>`}).join("")}<td></td></tr></tbody></table>`;
   mkChart("cTrend",{type:"line",data:{labels:wks.map(w=>"Wk "+w),datasets:[
     {label:"Median",data:wks.map(w=>D.weekly.find(x=>x.week==w).median),borderColor:"#D9621F",backgroundColor:"#D9621F",borderWidth:3,pointRadius:4},
-    {label:"League high",data:wks.map(w=>Math.max(...D.weekly.filter(x=>x.week==w).map(x=>x.pf))),borderColor:"#E3CFAE",borderDash:[5,4],pointRadius:3},
-    {label:"League low",data:wks.map(w=>Math.min(...D.weekly.filter(x=>x.week==w).map(x=>x.pf))),borderColor:"#8E2C2C",borderDash:[5,4],pointRadius:3}]},options:baseOpts()});
+    {label:"League high",data:wks.map(w=>Math.max(...D.weekly.filter(x=>x.week==w).map(x=>x.pf))),borderColor:"#5A4030",borderDash:[5,4],pointRadius:3},
+    {label:"League low",data:wks.map(w=>Math.min(...D.weekly.filter(x=>x.week==w).map(x=>x.pf))),borderColor:"#B8986F",borderDash:[5,4],pointRadius:3}]},options:baseOpts()});
 }
 
 /* ---------------- Stat categories ---------------- */
@@ -326,7 +323,7 @@ function rCategories(){
   const sorted=[...teams].sort((a,b)=>tot(b)-tot(a));
   function tot(t){return GROUPS.reduce((s,g)=>s+D.categories[g][t].total,0)}
   mkChart("cCat",{type:"bar",data:{labels:sorted,datasets:GROUPS.map((g,i)=>({label:g,data:sorted.map(t=>D.categories[g][t].total),backgroundColor:SERIES[i]}))},
-    options:baseOpts({indexAxis:"y",scales:{x:{stacked:true,ticks:{color:"#A58F77"},grid:{color:"#2E251D"}},y:{stacked:true,ticks:{color:"#E3CFAE",font:{weight:"600"}},grid:{display:false}}}})});
+    options:baseOpts({indexAxis:"y",scales:{x:{stacked:true,ticks:{color:"#8A6F57"},grid:{color:"#E8DBC4"}},y:{stacked:true,ticks:{color:"#5A4030",font:{weight:"600"}},grid:{display:false}}}})});
   let scope="ALL", base="avg";
   const ord=n=>n+(["th","st","nd","rd"][(n%100>10&&n%100<14)?0:(n%10<4?n%10:0)]);
   const drawCmp=()=>{
@@ -374,7 +371,7 @@ function rPositions(){
    <h3>Top starters by position</h3><div class="grid2">${POS.map(pos=>`<div class="panel"><h4>${pos}</h4><table><tbody>${top(pos).map(p=>`<tr><td class="l">${esc(p.player)} <span class="muted">${esc(p.nfl||"")}</span></td><td class="l muted">${esc(p.owner)}</td><td><b>${f2(p.points)}</b></td></tr>`).join("")}</tbody></table></div>`).join("")}</div>
    <p class="note">DEF totals include points-allowed tier points. Individual defenses in the top-starters lists don't, because Yahoo's log doesn't break points allowed out by player.</p>`;
   mkChart("cPos",{type:"bar",data:{labels:sorted,datasets:POS.map((p,i)=>({label:p,data:sorted.map(t=>P[t][p]),backgroundColor:SERIES[i]}))},
-    options:baseOpts({indexAxis:"y",scales:{x:{stacked:true,ticks:{color:"#A58F77"},grid:{color:"#2E251D"}},y:{stacked:true,ticks:{color:"#E3CFAE",font:{weight:"600"}},grid:{display:false}}}})});
+    options:baseOpts({indexAxis:"y",scales:{x:{stacked:true,ticks:{color:"#8A6F57"},grid:{color:"#E8DBC4"}},y:{stacked:true,ticks:{color:"#5A4030",font:{weight:"600"}},grid:{display:false}}}})});
 }
 
 /* ---------------- Teams ---------------- */
@@ -384,15 +381,15 @@ function rTeams(){
   const draw=t=>{
     const s=D.standings.find(x=>x.team==t), wk=D.weekly.filter(w=>w.team==t).sort((a,b)=>a.week-b.week), pl=D.players.filter(p=>p.owner==t);
     const posT=POS.map(p=>D.positions[t][p]), sum=posT.reduce((a,b)=>a+b,0);
-    $("#tmBox").innerHTML=`${D.team_names&&D.team_names[t]?`<p class="lede" style="font-family:var(--display);font-weight:800;font-size:22px;color:var(--ember);margin-bottom:8px">${esc(D.team_names[t])}</p>`:""}<div class="kpis"><div class="kpi"><b>#${s.seed}</b><span>Seed</span></div><div class="kpi"><b>${s.W}-${s.L}-${s.T}</b><span>Record</span></div>
+    $("#tmBox").innerHTML=`<div class="kpis"><div class="kpi"><b>#${s.seed}</b><span>Seed</span></div><div class="kpi"><b>${s.W}-${s.L}-${s.T}</b><span>Record</span></div>
       <div class="kpi"><b>${s.h2h}</b><span>H2H</span></div><div class="kpi"><b>${s.median}</b><span>vs. median</span></div><div class="kpi"><b>${f2(s.PF)}</b><span>Points for</span></div><div class="kpi"><b>${f1(s.luck)}</b><span>Luck</span></div></div>
       <div class="grid2"><div class="panel"><h4>Points by position</h4><div class="chart sm"><canvas id="cTmPos"></canvas></div></div>
       <div class="panel"><h4>Weekly results</h4><table><thead><tr><th class="l">Week</th><th class="l">Opponent</th><th>PF</th><th>PA</th><th>H2H</th><th>Median</th><th>Rank</th></tr></thead><tbody>
       ${wk.map(w=>`<tr><td class="l">${w.week}</td><td class="l">${esc(w.opp||"")}</td><td>${f2(w.pf)}</td><td>${f2(w.pa)}</td><td class="${w.h2h}">${w.h2h}</td><td class="${w.vs_median||""}">${w.vs_median||""}</td><td>${w.rank}</td></tr>`).join("")}</tbody></table></div></div>
       <h3>Starters who scored</h3><div class="tbl"><table><thead><tr><th class="l">Player</th><th class="l">Pos</th><th class="l">NFL</th><th>GP</th><th>Points</th><th>Share</th><th class="l">Biggest source</th></tr></thead><tbody>
       ${pl.map(p=>{const top=Object.entries(p.pts_by_cat).sort((a,b)=>b[1]-a[1])[0];return`<tr><td class="team l">${esc(p.player)}</td><td class="l">${p.pos}</td><td class="l muted">${esc(p.nfl||"")}</td><td>${p.gp}</td><td><b>${f2(p.points)}</b></td><td>${sum?(p.points/s.PF*100).toFixed(1)+"%":""}</td><td class="l muted">${top?esc(top[0])+" ("+f2(top[1])+")":""}</td></tr>`}).join("")}</tbody></table></div>`;
-    mkChart("cTmPos",{type:"doughnut",data:{labels:POS,datasets:[{data:posT,backgroundColor:SERIES,borderColor:"#1E1813",borderWidth:2}]},
-      options:{responsive:true,maintainAspectRatio:false,animation:false,plugins:{legend:{position:"right",labels:{color:"#E3CFAE",font:{family:"Barlow Semi Condensed",size:14}}}}}});
+    mkChart("cTmPos",{type:"doughnut",data:{labels:POS,datasets:[{data:posT,backgroundColor:SERIES,borderColor:"#FFFAF1",borderWidth:2}]},
+      options:{responsive:true,maintainAspectRatio:false,animation:false,plugins:{legend:{position:"right",labels:{color:"#5A4030",font:{family:"Barlow Semi Condensed",size:14}}}}}});
   };
   draw(teams[0]);
   bindPicker("tmPick",t=>{draw(t);document.querySelectorAll("#tmPick button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v==t))});
@@ -407,7 +404,7 @@ function rHistory(){
   const allRow=(a,heatOn)=>`<tr><td class="team l">${esc(a.manager)}</td>${cols.map(([k])=>`<td style="${heatOn?hs[k](a):""}">${cell(k,a[k])}</td>`).join("")}</tr>`;
   const mgrs=act.map(a=>a.manager);
   const R=H.active_ranks, rkCols=cols.filter(c=>c[0]!="T");
-  const EV={Original:"#F2B143",New:"#E07A3A",Returning:"#E8D3A8",Departing:"#B55252",Continuing:"#9C8166"};
+  const EV={Original:"#F2B143",New:"#E07A3A",Returning:"#B8925E",Departing:"#B55252",Continuing:"#E6D7BC"};
   const maxSeats=Math.max(...H.evolution.map(e=>e.seats.length));
   const tenure=[...H.alltime].sort((a,b)=>b.years-a.years);
   $("#p-history").innerHTML=`<h2>League History</h2><p class="lede">${H.years[0]} to ${H.years[H.years.length-1]}. ${H.years.length} seasons, ${H.alltime.length} managers.</p>
@@ -433,13 +430,13 @@ function rHistory(){
    <h3 id="h-awd">Records and awards</h3><div class="tbl"><table><thead><tr><th class="l">Award</th><th>Stat</th><th class="l">Manager</th><th class="l">Year</th></tr></thead><tbody>
     ${H.awards.map(a=>`<tr><td class="l">${esc(a.award)}</td><td><b>${/pct|Win %/.test(a.award)?pct(a.stat):num(a.stat)}</b></td><td class="team l">${esc(a.managers.join(", "))}</td><td class="l muted">${esc(a.years.join(", "))}</td></tr>`).join("")}</tbody></table></div>`;
   bindPicker("hJump",id=>document.getElementById(id).scrollIntoView({behavior:"smooth"}));
-  mkChart("cPvW",{type:"bar",data:{labels:mgrs,datasets:[{label:"Win %",data:act.map(a=>a.win_pct),backgroundColor:"#E3CFAE"},{label:"Playoff %",data:act.map(a=>a.playoff_pct),backgroundColor:"#D9621F"}]},
-    options:baseOpts({scales:{x:{ticks:{color:"#E3CFAE"},grid:{display:false}},y:{min:0,max:1,ticks:{color:"#A58F77",callback:v=>pct(v)},grid:{color:"#2E251D"}}}})});
+  mkChart("cPvW",{type:"bar",data:{labels:mgrs,datasets:[{label:"Win %",data:act.map(a=>a.win_pct),backgroundColor:"#5A4030"},{label:"Playoff %",data:act.map(a=>a.playoff_pct),backgroundColor:"#D9621F"}]},
+    options:baseOpts({scales:{x:{ticks:{color:"#5A4030"},grid:{display:false}},y:{min:0,max:1,ticks:{color:"#8A6F57",callback:v=>pct(v)},grid:{color:"#E8DBC4"}}}})});
   const slots=Array.from({length:12},(_,i)=>i+1);
   mkChart("cSlot",{type:"bar",data:{labels:slots.map(s=>"#"+s),datasets:[{label:"Titles",data:slots.map(s=>H.titles_by_draft_slot[s]||0),backgroundColor:"#D9621F"}]},
-    options:baseOpts({plugins:{legend:{display:false}},scales:{x:{ticks:{color:"#E3CFAE"},grid:{display:false}},y:{ticks:{color:"#A58F77",stepSize:1},grid:{color:"#2E251D"}}}})});
-  mkChart("cTen",{type:"bar",data:{labels:tenure.map(a=>a.manager),datasets:[{label:"Seasons",data:tenure.map(a=>a.years),backgroundColor:tenure.map(a=>a.active?"#E3CFAE":"#5A4636")}]},
-    options:baseOpts({indexAxis:"y",plugins:{legend:{display:false}},scales:{x:{ticks:{color:"#A58F77"},grid:{color:"#2E251D"}},y:{ticks:{color:"#E3CFAE"},grid:{display:false}}}})});
+    options:baseOpts({plugins:{legend:{display:false}},scales:{x:{ticks:{color:"#5A4030"},grid:{display:false}},y:{ticks:{color:"#8A6F57",stepSize:1},grid:{color:"#E8DBC4"}}}})});
+  mkChart("cTen",{type:"bar",data:{labels:tenure.map(a=>a.manager),datasets:[{label:"Seasons",data:tenure.map(a=>a.years),backgroundColor:tenure.map(a=>a.active?"#C4561A":"#C9B79C")}]},
+    options:baseOpts({indexAxis:"y",plugins:{legend:{display:false}},scales:{x:{ticks:{color:"#8A6F57"},grid:{color:"#E8DBC4"}},y:{ticks:{color:"#5A4030"},grid:{display:false}}}})});
 }
 </script>
 </body>

@@ -159,14 +159,8 @@ def score(stats):
 
 
 # ----------------------------------------------------------------- WEEKLY / STANDINGS
-TEAM_NAMES = {}
-
-
 def load_weekly(ws):
     weeks = collections.defaultdict(dict)
-    for r in ws.iter_rows(min_row=3, values_only=True):
-        if r[1] and r[2]:
-            TEAM_NAMES[str(r[1]).strip()] = str(r[2]).strip()
     for r in ws.iter_rows(min_row=3, values_only=True):
         wk, team, pf, pa = r[0], r[1], r[3], r[4]
         if wk is None or not team or pf in (None, "") or pa in (None, ""):
@@ -535,7 +529,7 @@ def main():
     now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     out = {"season": SEASON, "updated": now, "weeks_entered": weeks_entered,
            "reg_season_weeks": REG_SEASON_WEEKS, "playoff_weeks": PLAYOFF_WEEKS,
-           "owners": owners, "team_names": TEAM_NAMES, "recon_status": status, "recon": recon, "flags": flags,
+           "owners": owners, "recon_status": status, "recon": recon, "flags": flags,
            "standings": standings, "weekly": weekly_rows, "categories": cats,
            "positions": positions, "players": player_out, "history": history,
            "scoring": SCORING}
