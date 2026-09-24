@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-09-23 20:42 UTC",
+ "updated": "2026-09-24 15:52 UTC",
  "weeks_entered": 2,
  "reg_season_weeks": 14,
  "playoff_weeks": [
@@ -22,20 +22,6 @@
   "FIG",
   "MEANY"
  ],
- "team_names": {
-  "MARZ": "SPAGHETTI-OQUENDO",
-  "BJ": "GREEN BUBBLES",
-  "VINO": "NO THUNDERSTORMS",
-  "PAT ROFF": "PAT ROFF",
-  "ANT": "PUKACHU",
-  "GUARINO": "REYNOLDS WRAP",
-  "ADAM B": "SCREEN DOORS",
-  "PHIL": "SEABISCUIT",
-  "KARDIAN": "SUCKER PUNCHED",
-  "MERGY": "THIELEN THE BREECE",
-  "FIG": "CEEDEE DESIST",
-  "MEANY": "VRABEL"
- },
  "recon_status": "PASS",
  "recon": [
   {
@@ -3572,7 +3558,7 @@
   },
   {
    "owner": "BJ",
-   "player": "Pittsburgh",
+   "player": "Steelers",
    "nfl": "PIT",
    "pos": "DEF",
    "gp": 2,
@@ -4186,7 +4172,7 @@
   },
   {
    "owner": "ANT",
-   "player": "Seattle",
+   "player": "Seahawks",
    "nfl": "SEA",
    "pos": "DEF",
    "gp": 2,
@@ -4410,7 +4396,7 @@
   },
   {
    "owner": "MERGY",
-   "player": "Baltimore",
+   "player": "Ravens",
    "nfl": "BAL",
    "pos": "DEF",
    "gp": 2,
@@ -4633,7 +4619,7 @@
   },
   {
    "owner": "GUARINO",
-   "player": "Houston",
+   "player": "Texans",
    "nfl": "HOU",
    "pos": "DEF",
    "gp": 2,
@@ -4726,7 +4712,7 @@
   },
   {
    "owner": "FIG",
-   "player": "Los Angeles",
+   "player": "Rams",
    "nfl": "LAR",
    "pos": "DEF",
    "gp": 2,
@@ -4795,7 +4781,7 @@
   },
   {
    "owner": "PHIL",
-   "player": "Philadelphia",
+   "player": "Eagles",
    "nfl": "PHI",
    "pos": "DEF",
    "gp": 2,
@@ -4982,7 +4968,7 @@
   },
   {
    "owner": "MARZ",
-   "player": "Tampa Bay",
+   "player": "Buccaneers",
    "nfl": "TB",
    "pos": "DEF",
    "gp": 1,
@@ -5074,7 +5060,7 @@
   },
   {
    "owner": "MARZ",
-   "player": "Tennessee",
+   "player": "Titans",
    "nfl": "TEN",
    "pos": "DEF",
    "gp": 1,
