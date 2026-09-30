@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-09-29 16:57 UTC",
+ "updated": "2026-09-30 16:55 UTC",
  "weeks_entered": 3,
  "reg_season_weeks": 14,
  "playoff_weeks": [
@@ -4988,7 +4988,7 @@
   },
   {
    "owner": "MERGY",
-   "player": "Baltimore",
+   "player": "Ravens",
    "nfl": "BAL",
    "pos": "DEF",
    "gp": 2,
@@ -5406,7 +5406,7 @@
   },
   {
    "owner": "PHIL",
-   "player": "Philadelphia",
+   "player": "Eagles",
    "nfl": "PHI",
    "pos": "DEF",
    "gp": 3,
@@ -5589,7 +5589,7 @@
   },
   {
    "owner": "MERGY",
-   "player": "Carolina",
+   "player": "Panthers",
    "nfl": "CAR",
    "pos": "DEF",
    "gp": 1,
