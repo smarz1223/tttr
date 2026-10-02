@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-01 17:27 UTC",
+ "updated": "2026-10-02 16:45 UTC",
  "weeks_entered": 3,
  "reg_season_weeks": 14,
  "playoff_weeks": [
@@ -22,7 +22,7 @@
   "FIG",
   "MEANY"
  ],
- "recon_status": "PASS",
+ "recon_status": "LIVE",
  "recon": [
   {
    "team": "MARZ",
@@ -35,9 +35,9 @@
   {
    "team": "BJ",
    "weekly_total": 378.12,
-   "calculated": 373.12,
-   "dst_pts_allowed": 5,
-   "dst_games": 3,
+   "calculated": 379.12,
+   "dst_pts_allowed": -1,
+   "dst_games": 4,
    "check": "PASS"
   },
   {
@@ -115,13 +115,15 @@
   {
    "team": "MEANY",
    "weekly_total": 318.52,
-   "calculated": 319.52,
-   "dst_pts_allowed": -1,
+   "calculated": 346.82,
+   "dst_pts_allowed": -28,
    "dst_games": 3,
-   "check": "PASS"
+   "check": "PENDING"
   }
  ],
- "flags": [],
+ "flags": [
+  "Game log shows 4 games but Weekly Scores has 3 weeks. Week in progress; reconciliation will settle once scores are entered."
+ ],
  "standings": [
   {
    "team": "PAT ROFF",
@@ -1117,14 +1119,14 @@
    },
    "MEANY": {
     "raw": {
-     "Rush Yds": 426.0,
+     "Rush Yds": 519.0,
      "Rush TD": 0.0
     },
     "pts": {
-     "Rush Yds": 42.6,
+     "Rush Yds": 51.9,
      "Rush TD": 0.0
     },
-    "total": 42.6
+    "total": 51.9
    }
   },
   "Receiving": {
@@ -1273,16 +1275,16 @@
    },
    "MEANY": {
     "raw": {
-     "Receptions": 75.0,
-     "Rec Yds": 942.0,
-     "Rec TD": 5.0
+     "Receptions": 81.0,
+     "Rec Yds": 1002.0,
+     "Rec TD": 6.0
     },
     "pts": {
-     "Receptions": 75.0,
-     "Rec Yds": 94.2,
-     "Rec TD": 30.0
+     "Receptions": 81.0,
+     "Rec Yds": 100.2,
+     "Rec TD": 36.0
     },
-    "total": 199.2
+    "total": 217.2
    }
   },
   "Misc Offense": {
@@ -1794,23 +1796,23 @@
    },
    "BJ": {
     "raw": {
-     "Sacks": 8.0,
-     "Def INT": 3.0,
-     "Fum Rec": 3.0,
+     "Sacks": 10.0,
+     "Def INT": 4.0,
+     "Fum Rec": 4.0,
      "Def TD": 1.0,
      "Safety": 0.0,
      "Blocked Kick": 0.0,
      "Def Return TD": 0.0
     },
     "pts": {
-     "Sacks": 8.0,
-     "Def INT": 6.0,
-     "Fum Rec": 6.0,
+     "Sacks": 10.0,
+     "Def INT": 8.0,
+     "Fum Rec": 8.0,
      "Def TD": 6.0,
      "Safety": 0.0,
      "Blocked Kick": 0.0,
      "Def Return TD": 0.0,
-     "DST Pts Allowed": 5.0
+     "DST Pts Allowed": -1.0
     },
     "total": 31.0
    },
@@ -2030,9 +2032,9 @@
      "Safety": 0.0,
      "Blocked Kick": 0.0,
      "Def Return TD": 0.0,
-     "DST Pts Allowed": -1.0
+     "DST Pts Allowed": -28.0
     },
-    "total": 8.0
+    "total": -19.0
    }
   }
  },
@@ -2127,11 +2129,11 @@
   },
   "MEANY": {
    "QB": 52.92,
-   "RB": 61.6,
+   "RB": 77.2,
    "WR": 136.4,
-   "TE": 38.6,
+   "TE": 50.3,
    "K": 21.0,
-   "DEF": 8.0
+   "DEF": -19.0
   }
  },
  "players": [
@@ -2603,6 +2605,33 @@
    }
   },
   {
+   "owner": "MEANY",
+   "player": "Jaylen Warren",
+   "nfl": "PIT",
+   "pos": "RB",
+   "gp": 4,
+   "points": 56.2,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 309.0,
+    "Rush TD": 0.0,
+    "Receptions": 13.0,
+    "Rec Yds": 143.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 1.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 30.9,
+    "Receptions": 13.0,
+    "Rec Yds": 14.3,
+    "Fumbles Lost": -2.0
+   }
+  },
+  {
    "owner": "ANT",
    "player": "D'Andre Swift",
    "nfl": "CHI",
@@ -2821,6 +2850,32 @@
     "Receptions": 10.0,
     "Rec Yds": 5.6,
     "Rec TD": 6.0
+   }
+  },
+  {
+   "owner": "MEANY",
+   "player": "Harold Fannin Jr.",
+   "nfl": "CLE",
+   "pos": "TE",
+   "gp": 4,
+   "points": 50.3,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 17.0,
+    "Rec Yds": 153.0,
+    "Rec TD": 3.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 17.0,
+    "Rec Yds": 15.3,
+    "Rec TD": 18.0
    }
   },
   {
@@ -3199,33 +3254,6 @@
    }
   },
   {
-   "owner": "MEANY",
-   "player": "Jaylen Warren",
-   "nfl": "PIT",
-   "pos": "RB",
-   "gp": 3,
-   "points": 40.6,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 216.0,
-    "Rush TD": 0.0,
-    "Receptions": 10.0,
-    "Rec Yds": 110.0,
-    "Rec TD": 0.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 1.0
-   },
-   "pts_by_cat": {
-    "Rush Yds": 21.6,
-    "Receptions": 10.0,
-    "Rec Yds": 11.0,
-    "Fumbles Lost": -2.0
-   }
-  },
-  {
    "owner": "PHIL",
    "player": "David Montgomery",
    "nfl": "HOU",
@@ -3331,32 +3359,6 @@
     "Rush TD": 6.0,
     "Receptions": 10.0,
     "Rec Yds": 3.2
-   }
-  },
-  {
-   "owner": "MEANY",
-   "player": "Harold Fannin Jr.",
-   "nfl": "CLE",
-   "pos": "TE",
-   "gp": 3,
-   "points": 38.6,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 0.0,
-    "Rush TD": 0.0,
-    "Receptions": 14.0,
-    "Rec Yds": 126.0,
-    "Rec TD": 2.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Receptions": 14.0,
-    "Rec Yds": 12.6,
-    "Rec TD": 12.0
    }
   },
   {
@@ -3518,7 +3520,7 @@
   },
   {
    "owner": "PAT ROFF",
-   "player": "Vikings",
+   "player": "Minnesota",
    "nfl": "MIN",
    "pos": "DEF",
    "gp": 3,
@@ -3668,6 +3670,29 @@
     "FG 40-49": 8.0,
     "FG 50+": 10.0,
     "PAT": 11.0
+   }
+  },
+  {
+   "owner": "BJ",
+   "player": "Steelers",
+   "nfl": "PIT",
+   "pos": "DEF",
+   "gp": 4,
+   "points": 32.0,
+   "stats": {
+    "Blocked Kick": 0.0,
+    "Sacks": 10.0,
+    "Safety": 0.0,
+    "Def INT": 4.0,
+    "Fum Rec": 4.0,
+    "Def TD": 1.0,
+    "Def Return TD": 0.0
+   },
+   "pts_by_cat": {
+    "Sacks": 10.0,
+    "Def INT": 8.0,
+    "Fum Rec": 8.0,
+    "Def TD": 6.0
    }
   },
   {
@@ -3990,29 +4015,6 @@
    }
   },
   {
-   "owner": "BJ",
-   "player": "Steelers",
-   "nfl": "PIT",
-   "pos": "DEF",
-   "gp": 3,
-   "points": 26.0,
-   "stats": {
-    "Blocked Kick": 0.0,
-    "Sacks": 8.0,
-    "Safety": 0.0,
-    "Def INT": 3.0,
-    "Fum Rec": 3.0,
-    "Def TD": 1.0,
-    "Def Return TD": 0.0
-   },
-   "pts_by_cat": {
-    "Sacks": 8.0,
-    "Def INT": 6.0,
-    "Fum Rec": 6.0,
-    "Def TD": 6.0
-   }
-  },
-  {
    "owner": "PHIL",
    "player": "Dallas Goedert",
    "nfl": "PHI",
@@ -4171,7 +4173,7 @@
   },
   {
    "owner": "VINO",
-   "player": "Broncos",
+   "player": "Denver",
    "nfl": "DEN",
    "pos": "DEF",
    "gp": 3,
@@ -4945,7 +4947,7 @@
   },
   {
    "owner": "FIG",
-   "player": "Rams",
+   "player": "Los Angeles",
    "nfl": "LAR",
    "pos": "DEF",
    "gp": 3,
@@ -5340,7 +5342,7 @@
   },
   {
    "owner": "KARDIAN",
-   "player": "Cowboys",
+   "player": "Dallas",
    "nfl": "DAL",
    "pos": "DEF",
    "gp": 2,
@@ -5406,7 +5408,7 @@
   },
   {
    "owner": "PHIL",
-   "player": "Eagles",
+   "player": "Philadelphia",
    "nfl": "PHI",
    "pos": "DEF",
    "gp": 3,
@@ -5547,7 +5549,7 @@
   },
   {
    "owner": "KARDIAN",
-   "player": "Chiefs",
+   "player": "Kansas City",
    "nfl": "KC",
    "pos": "DEF",
    "gp": 1,
