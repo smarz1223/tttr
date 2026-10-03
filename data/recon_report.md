@@ -1,5 +1,5 @@
 # TTTR Reconciliation: LIVE
-Updated 2026-10-02 16:45 UTC | Weeks entered: 3
+Updated 2026-10-03 15:11 UTC | Weeks entered: 3
 
 | Team | Weekly Total | Calculated | DST Pts Allowed | DST Games | Check |
 |---|---|---|---|---|---|
