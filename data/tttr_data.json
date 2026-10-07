@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-06 17:21 UTC",
+ "updated": "2026-10-07 17:55 UTC",
  "weeks_entered": 4,
  "reg_season_weeks": 14,
  "playoff_weeks": [
@@ -4680,7 +4680,7 @@
   },
   {
    "owner": "VINO",
-   "player": "Broncos",
+   "player": "Denver",
    "nfl": "DEN",
    "pos": "DEF",
    "gp": 4,
@@ -5450,7 +5450,7 @@
   },
   {
    "owner": "MARZ",
-   "player": "Packers",
+   "player": "Green Bay",
    "nfl": "GB",
    "pos": "DEF",
    "gp": 2,
@@ -5493,7 +5493,7 @@
   },
   {
    "owner": "MERGY",
-   "player": "Ravens",
+   "player": "Baltimore",
    "nfl": "BAL",
    "pos": "DEF",
    "gp": 2,
@@ -6068,7 +6068,7 @@
   },
   {
    "owner": "MERGY",
-   "player": "Panthers",
+   "player": "Carolina",
    "nfl": "CAR",
    "pos": "DEF",
    "gp": 1,
@@ -6140,7 +6140,7 @@
   },
   {
    "owner": "MERGY",
-   "player": "Bears",
+   "player": "Chicago",
    "nfl": "CHI",
    "pos": "DEF",
    "gp": 1,
@@ -6186,7 +6186,7 @@
   },
   {
    "owner": "MARZ",
-   "player": "Buccaneers",
+   "player": "Tampa Bay",
    "nfl": "TB",
    "pos": "DEF",
    "gp": 1,
@@ -6277,7 +6277,7 @@
   },
   {
    "owner": "MARZ",
-   "player": "Titans",
+   "player": "Tennessee",
    "nfl": "TEN",
    "pos": "DEF",
    "gp": 1,
