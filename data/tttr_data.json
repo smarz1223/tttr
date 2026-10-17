@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-16 15:27 UTC",
+ "updated": "2026-10-17 14:20 UTC",
  "weeks_entered": 5,
  "reg_season_weeks": 14,
  "playoff_weeks": [
@@ -4313,7 +4313,7 @@
   },
   {
    "owner": "PAT ROFF",
-   "player": "Vikings",
+   "player": "Minnesota",
    "nfl": "MIN",
    "pos": "DEF",
    "gp": 5,
@@ -4873,7 +4873,7 @@
   },
   {
    "owner": "GUARINO",
-   "player": "Texans",
+   "player": "Houston",
    "nfl": "HOU",
    "pos": "DEF",
    "gp": 5,
@@ -4896,7 +4896,7 @@
   },
   {
    "owner": "ANT",
-   "player": "Seahawks",
+   "player": "Seattle",
    "nfl": "SEA",
    "pos": "DEF",
    "gp": 5,
@@ -5658,7 +5658,7 @@
   },
   {
    "owner": "FIG",
-   "player": "Rams",
+   "player": "Los Angeles",
    "nfl": "LAR",
    "pos": "DEF",
    "gp": 4,
@@ -5993,7 +5993,7 @@
   },
   {
    "owner": "MERGY",
-   "player": "Ravens",
+   "player": "Baltimore",
    "nfl": "BAL",
    "pos": "DEF",
    "gp": 2,
@@ -6114,7 +6114,7 @@
   },
   {
    "owner": "MEANY",
-   "player": "Bills",
+   "player": "Buffalo",
    "nfl": "BUF",
    "pos": "DEF",
    "gp": 2,
@@ -6137,7 +6137,7 @@
   },
   {
    "owner": "ANT",
-   "player": "Browns",
+   "player": "Cleveland",
    "nfl": "CLE",
    "pos": "DEF",
    "gp": 1,
@@ -6480,7 +6480,7 @@
   },
   {
    "owner": "MEANY",
-   "player": "Chargers",
+   "player": "Los Angeles",
    "nfl": "LAC",
    "pos": "DEF",
    "gp": 2,
@@ -6501,7 +6501,7 @@
   },
   {
    "owner": "MERGY",
-   "player": "Bears",
+   "player": "Chicago",
    "nfl": "CHI",
    "pos": "DEF",
    "gp": 2,
@@ -6620,7 +6620,7 @@
   },
   {
    "owner": "MEANY",
-   "player": "Bengals",
+   "player": "Cincinnati",
    "nfl": "CIN",
    "pos": "DEF",
    "gp": 1,
@@ -6641,7 +6641,7 @@
   },
   {
    "owner": "MERGY",
-   "player": "Panthers",
+   "player": "Carolina",
    "nfl": "CAR",
    "pos": "DEF",
    "gp": 1,
@@ -6784,7 +6784,7 @@
   },
   {
    "owner": "FIG",
-   "player": "Cowboys",
+   "player": "Dallas",
    "nfl": "DAL",
    "pos": "DEF",
    "gp": 1,
