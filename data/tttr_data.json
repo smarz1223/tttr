@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-21 13:51 UTC",
+ "updated": "2026-10-21 15:27 UTC",
  "weeks_entered": 6,
  "reg_season_weeks": 14,
  "playoff_weeks": [
@@ -22,7 +22,7 @@
   "FIG",
   "MEANY"
  ],
- "recon_status": "FAIL",
+ "recon_status": "PASS",
  "recon": [
   {
    "team": "MARZ",
@@ -83,10 +83,10 @@
   {
    "team": "PHIL",
    "weekly_total": 753.64,
-   "calculated": 733.64,
-   "dst_pts_allowed": 20,
-   "dst_games": 0,
-   "check": "FAIL"
+   "calculated": 750.64,
+   "dst_pts_allowed": 3,
+   "dst_games": 6,
+   "check": "PASS"
   },
   {
    "team": "KARDIAN",
@@ -121,9 +121,7 @@
    "check": "PASS"
   }
  ],
- "flags": [
-  "PHIL: residual 20.00 is not a valid DST points-allowed total for 0 DST games"
- ],
+ "flags": [],
  "standings": [
   {
    "team": "PAT ROFF",
@@ -2396,23 +2394,23 @@
    },
    "PHIL": {
     "raw": {
-     "Sacks": 0,
-     "Def INT": 0,
-     "Fum Rec": 0,
-     "Def TD": 0,
-     "Safety": 0,
-     "Blocked Kick": 0,
-     "Def Return TD": 0
-    },
-    "pts": {
-     "Sacks": 0.0,
-     "Def INT": 0.0,
+     "Sacks": 9.0,
+     "Def INT": 3.0,
      "Fum Rec": 0.0,
      "Def TD": 0.0,
      "Safety": 0.0,
-     "Blocked Kick": 0.0,
+     "Blocked Kick": 1.0,
+     "Def Return TD": 0.0
+    },
+    "pts": {
+     "Sacks": 9.0,
+     "Def INT": 6.0,
+     "Fum Rec": 0.0,
+     "Def TD": 0.0,
+     "Safety": 0.0,
+     "Blocked Kick": 2.0,
      "Def Return TD": 0.0,
-     "DST Pts Allowed": 20.0
+     "DST Pts Allowed": 3.0
     },
     "total": 20.0
    },
@@ -5151,7 +5149,7 @@
   },
   {
    "owner": "BJ",
-   "player": "Pittsburgh",
+   "player": "Steelers",
    "nfl": "PIT",
    "pos": "DEF",
    "gp": 4,
@@ -5328,7 +5326,7 @@
   },
   {
    "owner": "ANT",
-   "player": "Seattle",
+   "player": "Seahawks",
    "nfl": "SEA",
    "pos": "DEF",
    "gp": 5,
@@ -6129,6 +6127,28 @@
    }
   },
   {
+   "owner": "PHIL",
+   "player": "Eagles",
+   "nfl": "PHI",
+   "pos": "DEF",
+   "gp": 5,
+   "points": 14.0,
+   "stats": {
+    "Blocked Kick": 1.0,
+    "Sacks": 6.0,
+    "Safety": 0.0,
+    "Def INT": 3.0,
+    "Fum Rec": 0.0,
+    "Def TD": 0.0,
+    "Def Return TD": 0.0
+   },
+   "pts_by_cat": {
+    "Sacks": 6.0,
+    "Def INT": 6.0,
+    "Blocked Kick": 2.0
+   }
+  },
+  {
    "owner": "MARZ",
    "player": "J.K. Dobbins",
    "nfl": "DEN",
@@ -6775,7 +6795,7 @@
   },
   {
    "owner": "BJ",
-   "player": "Kansas City",
+   "player": "Chiefs",
    "nfl": "KC",
    "pos": "DEF",
    "gp": 1,
@@ -6797,7 +6817,7 @@
   },
   {
    "owner": "ANT",
-   "player": "Cleveland",
+   "player": "Browns",
    "nfl": "CLE",
    "pos": "DEF",
    "gp": 1,
@@ -7318,6 +7338,26 @@
    }
   },
   {
+   "owner": "PHIL",
+   "player": "Panthers",
+   "nfl": "CAR",
+   "pos": "DEF",
+   "gp": 1,
+   "points": 3.0,
+   "stats": {
+    "Blocked Kick": 0.0,
+    "Sacks": 3.0,
+    "Safety": 0.0,
+    "Def INT": 0.0,
+    "Fum Rec": 0.0,
+    "Def TD": 0.0,
+    "Def Return TD": 0.0
+   },
+   "pts_by_cat": {
+    "Sacks": 3.0
+   }
+  },
+  {
    "owner": "FIG",
    "player": "Jonathon Brooks",
    "nfl": "CAR",
@@ -7430,7 +7470,7 @@
   },
   {
    "owner": "BJ",
-   "player": "Jacksonville",
+   "player": "Jaguars",
    "nfl": "JAX",
    "pos": "DEF",
    "gp": 1,

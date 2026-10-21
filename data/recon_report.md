@@ -1,5 +1,5 @@
-# TTTR Reconciliation: FAIL
-Updated 2026-10-21 13:51 UTC | Weeks entered: 6
+# TTTR Reconciliation: PASS
+Updated 2026-10-21 15:27 UTC | Weeks entered: 6
 
 | Team | Weekly Total | Calculated | DST Pts Allowed | DST Games | Check |
 |---|---|---|---|---|---|
@@ -10,11 +10,11 @@ Updated 2026-10-21 13:51 UTC | Weeks entered: 6
 | ANT | 742.86 | 732.86 | 10 | 6 | PASS |
 | GUARINO | 659.34 | 656.34 | 3 | 6 | PASS |
 | ADAM B | 805.46 | 792.46 | 13 | 6 | PASS |
-| PHIL | 753.64 | 733.64 | 20 | 0 | FAIL |
+| PHIL | 753.64 | 750.64 | 3 | 6 | PASS |
 | KARDIAN | 673.96 | 665.96 | 8 | 6 | PASS |
 | MERGY | 669.20 | 665.20 | 4 | 6 | PASS |
 | FIG | 699.00 | 690.00 | 9 | 6 | PASS |
 | MEANY | 597.02 | 601.02 | -4 | 6 | PASS |
 
 ## Flags
-- PHIL: residual 20.00 is not a valid DST points-allowed total for 0 DST games
+- None
