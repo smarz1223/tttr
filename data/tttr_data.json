@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-21 15:27 UTC",
+ "updated": "2026-10-21 16:03 UTC",
  "weeks_entered": 6,
  "reg_season_weeks": 14,
  "playoff_weeks": [
@@ -6106,7 +6106,7 @@
   },
   {
    "owner": "ADAM B",
-   "player": "Ravens",
+   "player": "Baltimore",
    "nfl": "BAL",
    "pos": "DEF",
    "gp": 3,
@@ -6128,7 +6128,7 @@
   },
   {
    "owner": "PHIL",
-   "player": "Eagles",
+   "player": "Philadelphia",
    "nfl": "PHI",
    "pos": "DEF",
    "gp": 5,
@@ -6631,7 +6631,7 @@
   },
   {
    "owner": "ADAM B",
-   "player": "Jaguars",
+   "player": "Jacksonville",
    "nfl": "JAX",
    "pos": "DEF",
    "gp": 1,
@@ -7014,7 +7014,7 @@
   },
   {
    "owner": "ADAM B",
-   "player": "49ers",
+   "player": "San Francisco",
    "nfl": "SF",
    "pos": "DEF",
    "gp": 2,
@@ -7339,7 +7339,7 @@
   },
   {
    "owner": "PHIL",
-   "player": "Panthers",
+   "player": "Carolina",
    "nfl": "CAR",
    "pos": "DEF",
    "gp": 1,
