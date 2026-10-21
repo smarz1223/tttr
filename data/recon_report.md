@@ -1,20 +1,20 @@
-# TTTR Reconciliation: LIVE
-Updated 2026-10-20 15:44 UTC | Weeks entered: 5
+# TTTR Reconciliation: FAIL
+Updated 2026-10-21 13:51 UTC | Weeks entered: 6
 
 | Team | Weekly Total | Calculated | DST Pts Allowed | DST Games | Check |
 |---|---|---|---|---|---|
-| MARZ | 623.56 | 737.16 | -114 | 6 | PENDING |
-| BJ | 577.18 | 670.82 | -94 | 6 | PENDING |
-| VINO | 573.92 | 668.22 | -94 | 6 | PENDING |
-| PAT ROFF | 705.74 | 820.40 | -115 | 6 | PENDING |
-| ANT | 615.88 | 732.86 | -117 | 6 | PENDING |
-| GUARINO | 567.92 | 656.34 | -88 | 6 | PENDING |
-| ADAM B | 658.44 | 792.46 | -134 | 6 | PENDING |
-| PHIL | 656.94 | 750.64 | -94 | 6 | PENDING |
-| KARDIAN | 550.92 | 665.96 | -115 | 6 | PENDING |
-| MERGY | 552.46 | 665.20 | -113 | 6 | PENDING |
-| FIG | 561.70 | 690.00 | -128 | 6 | PENDING |
-| MEANY | 527.04 | 601.02 | -74 | 6 | PENDING |
+| MARZ | 735.16 | 737.16 | -2 | 6 | PASS |
+| BJ | 683.82 | 670.82 | 13 | 6 | PASS |
+| VINO | 673.22 | 668.22 | 5 | 6 | PASS |
+| PAT ROFF | 836.40 | 820.40 | 16 | 6 | PASS |
+| ANT | 742.86 | 732.86 | 10 | 6 | PASS |
+| GUARINO | 659.34 | 656.34 | 3 | 6 | PASS |
+| ADAM B | 805.46 | 792.46 | 13 | 6 | PASS |
+| PHIL | 753.64 | 733.64 | 20 | 0 | FAIL |
+| KARDIAN | 673.96 | 665.96 | 8 | 6 | PASS |
+| MERGY | 669.20 | 665.20 | 4 | 6 | PASS |
+| FIG | 699.00 | 690.00 | 9 | 6 | PASS |
+| MEANY | 597.02 | 601.02 | -4 | 6 | PASS |
 
 ## Flags
-- Game log shows 6 games but Weekly Scores has 5 weeks. Week in progress; reconciliation will settle once scores are entered.
+- PHIL: residual 20.00 is not a valid DST points-allowed total for 0 DST games
