@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-27 13:28 UTC",
+ "updated": "2026-10-27 16:47 UTC",
  "weeks_entered": 7,
  "reg_season_weeks": 14,
  "playoff_weeks": [
@@ -4991,7 +4991,7 @@
   },
   {
    "owner": "VINO",
-   "player": "Broncos",
+   "player": "Denver",
    "nfl": "DEN",
    "pos": "DEF",
    "gp": 7,
@@ -5449,7 +5449,7 @@
   },
   {
    "owner": "GUARINO",
-   "player": "Houston",
+   "player": "Texans",
    "nfl": "HOU",
    "pos": "DEF",
    "gp": 7,
@@ -5574,7 +5574,7 @@
   },
   {
    "owner": "BJ",
-   "player": "Steelers",
+   "player": "Pittsburgh",
    "nfl": "PIT",
    "pos": "DEF",
    "gp": 4,
@@ -6916,7 +6916,7 @@
   },
   {
    "owner": "MEANY",
-   "player": "Buffalo",
+   "player": "Bills",
    "nfl": "BUF",
    "pos": "DEF",
    "gp": 3,
@@ -7279,7 +7279,7 @@
   },
   {
    "owner": "BJ",
-   "player": "Chiefs",
+   "player": "Kansas City",
    "nfl": "KC",
    "pos": "DEF",
    "gp": 1,
@@ -7523,7 +7523,7 @@
   },
   {
    "owner": "BJ",
-   "player": "Bengals",
+   "player": "Cincinnati",
    "nfl": "CIN",
    "pos": "DEF",
    "gp": 1,
@@ -7679,7 +7679,7 @@
   },
   {
    "owner": "MEANY",
-   "player": "Los Angeles",
+   "player": "Chargers",
    "nfl": "LAC",
    "pos": "DEF",
    "gp": 2,
@@ -7819,7 +7819,7 @@
   },
   {
    "owner": "MEANY",
-   "player": "Cincinnati",
+   "player": "Bengals",
    "nfl": "CIN",
    "pos": "DEF",
    "gp": 1,
@@ -7840,7 +7840,7 @@
   },
   {
    "owner": "MEANY",
-   "player": "Dallas",
+   "player": "Cowboys",
    "nfl": "DAL",
    "pos": "DEF",
    "gp": 1,
@@ -8039,7 +8039,7 @@
   },
   {
    "owner": "BJ",
-   "player": "Jaguars",
+   "player": "Jacksonville",
    "nfl": "JAX",
    "pos": "DEF",
    "gp": 1,
