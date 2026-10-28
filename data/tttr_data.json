@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-27 16:47 UTC",
+ "updated": "2026-10-28 17:15 UTC",
  "weeks_entered": 7,
  "reg_season_weeks": 14,
  "playoff_weeks": [
@@ -4991,7 +4991,7 @@
   },
   {
    "owner": "VINO",
-   "player": "Denver",
+   "player": "Broncos",
    "nfl": "DEN",
    "pos": "DEF",
    "gp": 7,
@@ -5574,7 +5574,7 @@
   },
   {
    "owner": "BJ",
-   "player": "Pittsburgh",
+   "player": "Steelers",
    "nfl": "PIT",
    "pos": "DEF",
    "gp": 4,
@@ -7279,7 +7279,7 @@
   },
   {
    "owner": "BJ",
-   "player": "Kansas City",
+   "player": "Chiefs",
    "nfl": "KC",
    "pos": "DEF",
    "gp": 1,
@@ -7523,7 +7523,7 @@
   },
   {
    "owner": "BJ",
-   "player": "Cincinnati",
+   "player": "Bengals",
    "nfl": "CIN",
    "pos": "DEF",
    "gp": 1,
@@ -8039,7 +8039,7 @@
   },
   {
    "owner": "BJ",
-   "player": "Jacksonville",
+   "player": "Jaguars",
    "nfl": "JAX",
    "pos": "DEF",
    "gp": 1,
