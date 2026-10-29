@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-10-28 17:15 UTC",
+ "updated": "2026-10-29 17:29 UTC",
  "weeks_entered": 7,
  "reg_season_weeks": 14,
  "playoff_weeks": [
@@ -5449,7 +5449,7 @@
   },
   {
    "owner": "GUARINO",
-   "player": "Texans",
+   "player": "Houston",
    "nfl": "HOU",
    "pos": "DEF",
    "gp": 7,
@@ -5574,7 +5574,7 @@
   },
   {
    "owner": "BJ",
-   "player": "Steelers",
+   "player": "Pittsburgh",
    "nfl": "PIT",
    "pos": "DEF",
    "gp": 4,
@@ -6233,7 +6233,7 @@
   },
   {
    "owner": "KARDIAN",
-   "player": "Jets",
+   "player": "New York",
    "nfl": "NYJ",
    "pos": "DEF",
    "gp": 3,
@@ -7258,7 +7258,7 @@
   },
   {
    "owner": "KARDIAN",
-   "player": "Chiefs",
+   "player": "Kansas City",
    "nfl": "KC",
    "pos": "DEF",
    "gp": 2,
@@ -7279,7 +7279,7 @@
   },
   {
    "owner": "BJ",
-   "player": "Chiefs",
+   "player": "Kansas City",
    "nfl": "KC",
    "pos": "DEF",
    "gp": 1,
@@ -7502,7 +7502,7 @@
   },
   {
    "owner": "KARDIAN",
-   "player": "Cowboys",
+   "player": "Dallas",
    "nfl": "DAL",
    "pos": "DEF",
    "gp": 2,
@@ -7523,7 +7523,7 @@
   },
   {
    "owner": "BJ",
-   "player": "Bengals",
+   "player": "Cincinnati",
    "nfl": "CIN",
    "pos": "DEF",
    "gp": 1,
@@ -8039,7 +8039,7 @@
   },
   {
    "owner": "BJ",
-   "player": "Jaguars",
+   "player": "Jacksonville",
    "nfl": "JAX",
    "pos": "DEF",
    "gp": 1,
