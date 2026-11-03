@@ -1,20 +1,20 @@
 # TTTR Reconciliation: PASS
-Updated 2026-11-02 20:51 UTC | Weeks entered: 7
+Updated 2026-11-03 13:58 UTC | Weeks entered: 8
 
 | Team | Weekly Total | Calculated | DST Pts Allowed | DST Games | Check |
 |---|---|---|---|---|---|
-| MARZ | 862.86 | 864.86 | -2 | 7 | PASS |
-| BJ | 816.38 | 799.38 | 17 | 7 | PASS |
-| VINO | 782.36 | 776.36 | 6 | 7 | PASS |
-| PAT ROFF | 973.42 | 953.42 | 20 | 7 | PASS |
-| ANT | 857.78 | 840.78 | 17 | 7 | PASS |
-| GUARINO | 764.32 | 761.32 | 3 | 7 | PASS |
-| ADAM B | 930.24 | 917.24 | 13 | 7 | PASS |
-| PHIL | 854.66 | 855.66 | -1 | 7 | PASS |
-| KARDIAN | 786.48 | 779.48 | 7 | 7 | PASS |
-| MERGY | 795.28 | 787.28 | 8 | 7 | PASS |
-| FIG | 823.42 | 814.42 | 9 | 7 | PASS |
-| MEANY | 722.50 | 726.50 | -4 | 7 | PASS |
+| MARZ | 1005.52 | 1003.52 | 2 | 8 | PASS |
+| BJ | 918.30 | 905.30 | 13 | 8 | PASS |
+| VINO | 881.22 | 875.22 | 6 | 8 | PASS |
+| PAT ROFF | 1098.28 | 1077.28 | 21 | 8 | PASS |
+| ANT | 987.58 | 971.58 | 16 | 8 | PASS |
+| GUARINO | 864.10 | 860.10 | 4 | 8 | PASS |
+| ADAM B | 1015.84 | 1001.84 | 14 | 8 | PASS |
+| PHIL | 942.94 | 943.94 | -1 | 8 | PASS |
+| KARDIAN | 861.48 | 854.48 | 7 | 8 | PASS |
+| MERGY | 953.58 | 938.58 | 15 | 8 | PASS |
+| FIG | 927.70 | 914.70 | 13 | 8 | PASS |
+| MEANY | 866.78 | 866.78 | 0 | 8 | PASS |
 
 ## Flags
 - None
