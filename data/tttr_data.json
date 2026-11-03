@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-11-03 13:58 UTC",
+ "updated": "2026-11-03 18:34 UTC",
  "weeks_entered": 8,
  "reg_season_weeks": 14,
  "playoff_weeks": [
@@ -5778,7 +5778,7 @@
   },
   {
    "owner": "GUARINO",
-   "player": "Houston",
+   "player": "Texans",
    "nfl": "HOU",
    "pos": "DEF",
    "gp": 7,
@@ -7868,7 +7868,7 @@
   },
   {
    "owner": "GUARINO",
-   "player": "New England",
+   "player": "Patriots",
    "nfl": "NE",
    "pos": "DEF",
    "gp": 1,
