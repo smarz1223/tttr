@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-11-12 19:01 UTC",
+ "updated": "2026-11-13 18:39 UTC",
  "weeks_entered": 9,
  "reg_season_weeks": 14,
  "playoff_weeks": [
@@ -5584,7 +5584,7 @@
   },
   {
    "owner": "GUARINO",
-   "player": "Texans",
+   "player": "Houston",
    "nfl": "HOU",
    "pos": "DEF",
    "gp": 8,
@@ -5912,7 +5912,7 @@
   },
   {
    "owner": "ANT",
-   "player": "Seahawks",
+   "player": "Seattle",
    "nfl": "SEA",
    "pos": "DEF",
    "gp": 8,
@@ -6176,7 +6176,7 @@
   {
    "owner": "MEANY",
    "player": "Harrison Mevis",
-   "nfl": "BAL",
+   "nfl": "LAR",
    "pos": "K",
    "gp": 5,
    "points": 32.0,
@@ -6876,7 +6876,7 @@
   {
    "owner": "BJ",
    "player": "Josh Downs",
-   "nfl": "KC",
+   "nfl": "IND",
    "pos": "WR",
    "gp": 3,
    "points": 20.2,
@@ -7485,7 +7485,7 @@
   {
    "owner": "GUARINO",
    "player": "Kirk Cousins",
-   "nfl": "MIN",
+   "nfl": "LV",
    "pos": "QB",
    "gp": 1,
    "points": 12.64,
@@ -7835,7 +7835,7 @@
   {
    "owner": "MEANY",
    "player": "Kendre Miller",
-   "nfl": "DAL",
+   "nfl": "NO",
    "pos": "RB",
    "gp": 1,
    "points": 9.0,
@@ -8179,7 +8179,7 @@
   },
   {
    "owner": "ANT",
-   "player": "Browns",
+   "player": "Cleveland",
    "nfl": "CLE",
    "pos": "DEF",
    "gp": 1,
@@ -8277,7 +8277,7 @@
   },
   {
    "owner": "GUARINO",
-   "player": "Patriots",
+   "player": "New England",
    "nfl": "NE",
    "pos": "DEF",
    "gp": 1,
