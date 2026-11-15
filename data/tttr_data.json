@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-11-14 17:15 UTC",
+ "updated": "2026-11-15 17:55 UTC",
  "weeks_entered": 9,
  "reg_season_weeks": 14,
  "playoff_weeks": [
@@ -5350,7 +5350,7 @@
   },
   {
    "owner": "VINO",
-   "player": "Denver",
+   "player": "Broncos",
    "nfl": "DEN",
    "pos": "DEF",
    "gp": 9,
@@ -5917,7 +5917,7 @@
   },
   {
    "owner": "ANT",
-   "player": "Seattle",
+   "player": "Seahawks",
    "nfl": "SEA",
    "pos": "DEF",
    "gp": 8,
@@ -6336,7 +6336,7 @@
   },
   {
    "owner": "FIG",
-   "player": "Los Angeles",
+   "player": "Rams",
    "nfl": "LAR",
    "pos": "DEF",
    "gp": 8,
@@ -8184,7 +8184,7 @@
   },
   {
    "owner": "ANT",
-   "player": "Cleveland",
+   "player": "Browns",
    "nfl": "CLE",
    "pos": "DEF",
    "gp": 1,
@@ -9032,7 +9032,7 @@
   },
   {
    "owner": "FIG",
-   "player": "Dallas",
+   "player": "Cowboys",
    "nfl": "DAL",
    "pos": "DEF",
    "gp": 1,
