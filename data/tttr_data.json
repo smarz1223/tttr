@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "updated": "2026-11-17 19:57 UTC",
+ "updated": "2026-11-18 19:29 UTC",
  "weeks_entered": 10,
  "reg_season_weeks": 14,
  "playoff_weeks": [
@@ -4604,7 +4604,7 @@
   },
   {
    "owner": "MARZ",
-   "player": "Luther Burden IIIQ",
+   "player": "Luther Burden III",
    "nfl": "CHI",
    "pos": "WR",
    "gp": 7,
@@ -6554,7 +6554,7 @@
   {
    "owner": "MEANY",
    "player": "Harrison Mevis",
-   "nfl": "BAL",
+   "nfl": "LAR",
    "pos": "K",
    "gp": 5,
    "points": 32.0,
