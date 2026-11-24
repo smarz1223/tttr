@@ -1,7 +1,7 @@
 {
  "season": 2026,
- "updated": "2026-11-23 22:50 UTC",
- "weeks_entered": 10,
+ "updated": "2026-11-24 15:17 UTC",
+ "weeks_entered": 11,
  "reg_season_weeks": 14,
  "playoff_weeks": [
   15,
@@ -22,346 +22,344 @@
   "FIG",
   "MEANY"
  ],
- "recon_status": "LIVE",
+ "recon_status": "PASS",
  "recon": [
   {
    "team": "MARZ",
-   "weekly_total": 1281.62,
+   "weekly_total": 1387.18,
    "calculated": 1381.18,
-   "dst_pts_allowed": -100,
+   "dst_pts_allowed": 6,
    "dst_games": 11,
-   "check": "PENDING"
+   "check": "PASS"
   },
   {
    "team": "BJ",
-   "weekly_total": 1148.78,
+   "weekly_total": 1276.3,
    "calculated": 1262.3,
-   "dst_pts_allowed": -114,
+   "dst_pts_allowed": 14,
    "dst_games": 11,
-   "check": "PENDING"
+   "check": "PASS"
   },
   {
    "team": "VINO",
-   "weekly_total": 1052.9,
+   "weekly_total": 1134.5,
    "calculated": 1127.5,
-   "dst_pts_allowed": -75,
+   "dst_pts_allowed": 7,
    "dst_games": 11,
-   "check": "PENDING"
+   "check": "PASS"
   },
   {
    "team": "PAT ROFF",
-   "weekly_total": 1383.8,
-   "calculated": 1472.6,
-   "dst_pts_allowed": -89,
+   "weekly_total": 1508.9,
+   "calculated": 1484.9,
+   "dst_pts_allowed": 24,
    "dst_games": 11,
-   "check": "PENDING"
+   "check": "PASS"
   },
   {
    "team": "ANT",
-   "weekly_total": 1233.38,
-   "calculated": 1303.04,
-   "dst_pts_allowed": -70,
+   "weekly_total": 1341.04,
+   "calculated": 1313.04,
+   "dst_pts_allowed": 28,
    "dst_games": 11,
-   "check": "PENDING"
+   "check": "PASS"
   },
   {
    "team": "GUARINO",
-   "weekly_total": 1107.86,
-   "calculated": 1205.32,
-   "dst_pts_allowed": -97,
+   "weekly_total": 1229.02,
+   "calculated": 1218.02,
+   "dst_pts_allowed": 11,
    "dst_games": 11,
-   "check": "PENDING"
+   "check": "PASS"
   },
   {
    "team": "ADAM B",
-   "weekly_total": 1311.96,
-   "calculated": 1418.66,
-   "dst_pts_allowed": -107,
+   "weekly_total": 1445.16,
+   "calculated": 1427.16,
+   "dst_pts_allowed": 18,
    "dst_games": 11,
-   "check": "PENDING"
+   "check": "PASS"
   },
   {
    "team": "PHIL",
-   "weekly_total": 1142.62,
+   "weekly_total": 1239.86,
    "calculated": 1235.86,
-   "dst_pts_allowed": -93,
+   "dst_pts_allowed": 4,
    "dst_games": 11,
-   "check": "PENDING"
+   "check": "PASS"
   },
   {
    "team": "KARDIAN",
-   "weekly_total": 1053.5,
-   "calculated": 1112.82,
-   "dst_pts_allowed": -59,
+   "weekly_total": 1148.12,
+   "calculated": 1137.12,
+   "dst_pts_allowed": 11,
    "dst_games": 11,
-   "check": "PENDING"
+   "check": "PASS"
   },
   {
    "team": "MERGY",
-   "weekly_total": 1244.14,
-   "calculated": 1310.58,
-   "dst_pts_allowed": -66,
+   "weekly_total": 1345.68,
+   "calculated": 1318.68,
+   "dst_pts_allowed": 27,
    "dst_games": 11,
-   "check": "PENDING"
+   "check": "PASS"
   },
   {
    "team": "FIG",
-   "weekly_total": 1162.14,
-   "calculated": 1231.44,
-   "dst_pts_allowed": -69,
+   "weekly_total": 1281.1,
+   "calculated": 1257.1,
+   "dst_pts_allowed": 24,
    "dst_games": 11,
-   "check": "PENDING"
+   "check": "PASS"
   },
   {
    "team": "MEANY",
-   "weekly_total": 1099.68,
-   "calculated": 1158.48,
-   "dst_pts_allowed": -59,
+   "weekly_total": 1190.38,
+   "calculated": 1178.38,
+   "dst_pts_allowed": 12,
    "dst_games": 11,
-   "check": "PENDING"
+   "check": "PASS"
   }
  ],
- "flags": [
-  "Game log shows 11 games but Weekly Scores has 10 weeks. Week in progress; reconciliation will settle once scores are entered."
- ],
+ "flags": [],
  "standings": [
   {
    "team": "PAT ROFF",
-   "W": 16,
+   "W": 18,
    "L": 4,
    "T": 0,
-   "win_pct": 0.8,
-   "h2h": "6-4-0",
-   "median": "10-0-0",
-   "allplay": "87-23-0",
-   "allplay_pct": 0.7909,
-   "exp_h2h_wins": 7.91,
-   "luck": 40.5,
-   "perf_rating": 77.1,
-   "PF": 1383.8,
-   "PA": 1223.66,
-   "PPG": 138.38,
-   "G": 10,
+   "win_pct": 0.8182,
+   "h2h": "7-4-0",
+   "median": "11-0-0",
+   "allplay": "96-25-0",
+   "allplay_pct": 0.7934,
+   "exp_h2h_wins": 8.73,
+   "luck": 42.1,
+   "perf_rating": 77.8,
+   "PF": 1508.9,
+   "PA": 1305.26,
+   "PPG": 137.17,
+   "G": 11,
    "seed": 1,
    "status": "bye"
   },
   {
    "team": "ADAM B",
-   "W": 14,
+   "W": 16,
    "L": 6,
    "T": 0,
-   "win_pct": 0.7,
-   "h2h": "7-3-0",
-   "median": "7-3-0",
-   "allplay": "73-37-0",
-   "allplay_pct": 0.6636,
-   "exp_h2h_wins": 6.64,
-   "luck": 51.8,
-   "perf_rating": 66.3,
-   "PF": 1311.96,
-   "PA": 1203.72,
-   "PPG": 131.2,
-   "G": 10,
+   "win_pct": 0.7273,
+   "h2h": "8-3-0",
+   "median": "8-3-0",
+   "allplay": "84-37-0",
+   "allplay_pct": 0.6942,
+   "exp_h2h_wins": 7.64,
+   "luck": 51.7,
+   "perf_rating": 68.8,
+   "PF": 1445.16,
+   "PA": 1305.26,
+   "PPG": 131.38,
+   "G": 11,
    "seed": 2,
    "status": "bye"
   },
   {
    "team": "MARZ",
    "W": 14,
-   "L": 6,
+   "L": 8,
    "T": 0,
-   "win_pct": 0.7,
-   "h2h": "8-2-0",
-   "median": "6-4-0",
-   "allplay": "69-41-0",
-   "allplay_pct": 0.6273,
-   "exp_h2h_wins": 6.27,
-   "luck": 58.6,
-   "perf_rating": 61.9,
-   "PF": 1281.62,
-   "PA": 1137.0,
-   "PPG": 128.16,
-   "G": 10,
+   "win_pct": 0.6364,
+   "h2h": "8-3-0",
+   "median": "6-5-0",
+   "allplay": "74-47-0",
+   "allplay_pct": 0.6116,
+   "exp_h2h_wins": 6.73,
+   "luck": 55.8,
+   "perf_rating": 60.1,
+   "PF": 1387.18,
+   "PA": 1255.96,
+   "PPG": 126.11,
+   "G": 11,
    "seed": 3,
    "status": "playoff"
   },
   {
    "team": "MERGY",
    "W": 14,
-   "L": 6,
+   "L": 8,
    "T": 0,
-   "win_pct": 0.7,
-   "h2h": "7-3-0",
-   "median": "7-3-0",
-   "allplay": "65-45-0",
-   "allplay_pct": 0.5909,
-   "exp_h2h_wins": 5.91,
-   "luck": 55.5,
-   "perf_rating": 57.2,
-   "PF": 1244.14,
-   "PA": 1094.24,
-   "PPG": 124.41,
-   "G": 10,
+   "win_pct": 0.6364,
+   "h2h": "7-4-0",
+   "median": "7-4-0",
+   "allplay": "69-52-0",
+   "allplay_pct": 0.5702,
+   "exp_h2h_wins": 6.27,
+   "luck": 53.3,
+   "perf_rating": 55.0,
+   "PF": 1345.68,
+   "PA": 1227.44,
+   "PPG": 122.33,
+   "G": 11,
    "seed": 4,
    "status": "playoff"
   },
   {
    "team": "ANT",
-   "W": 11,
+   "W": 13,
    "L": 9,
    "T": 0,
-   "win_pct": 0.55,
-   "h2h": "5-5-0",
-   "median": "6-4-0",
-   "allplay": "60-50-0",
+   "win_pct": 0.5909,
+   "h2h": "6-5-0",
+   "median": "7-4-0",
+   "allplay": "66-55-0",
    "allplay_pct": 0.5455,
-   "exp_h2h_wins": 5.45,
-   "luck": 47.7,
-   "perf_rating": 54.5,
-   "PF": 1233.38,
-   "PA": 1103.06,
-   "PPG": 123.34,
-   "G": 10,
+   "exp_h2h_wins": 6.0,
+   "luck": 50.0,
+   "perf_rating": 53.8,
+   "PF": 1341.04,
+   "PA": 1200.3,
+   "PPG": 121.91,
+   "G": 11,
    "seed": 5,
    "status": "playoff"
   },
   {
    "team": "BJ",
-   "W": 10,
+   "W": 12,
    "L": 10,
    "T": 0,
-   "win_pct": 0.5,
-   "h2h": "6-4-0",
-   "median": "4-6-0",
-   "allplay": "57-53-0",
-   "allplay_pct": 0.5182,
-   "exp_h2h_wins": 5.18,
+   "win_pct": 0.5455,
+   "h2h": "7-4-0",
+   "median": "5-6-0",
+   "allplay": "67-54-0",
+   "allplay_pct": 0.5537,
+   "exp_h2h_wins": 6.09,
    "luck": 54.1,
-   "perf_rating": 46.9,
-   "PF": 1148.78,
-   "PA": 1145.02,
-   "PPG": 114.88,
-   "G": 10,
+   "perf_rating": 50.7,
+   "PF": 1276.3,
+   "PA": 1239.64,
+   "PPG": 116.03,
+   "G": 11,
    "seed": 6,
    "status": "playoff"
   },
   {
+   "team": "FIG",
+   "W": 9,
+   "L": 13,
+   "T": 0,
+   "win_pct": 0.4091,
+   "h2h": "5-6-0",
+   "median": "4-7-0",
+   "allplay": "59-61-1",
+   "allplay_pct": 0.4917,
+   "exp_h2h_wins": 5.41,
+   "luck": 48.1,
+   "perf_rating": 49.9,
+   "PF": 1281.1,
+   "PA": 1317.1,
+   "PPG": 116.46,
+   "G": 11,
+   "seed": 7,
+   "status": "out"
+  },
+  {
+   "team": "GUARINO",
+   "W": 8,
+   "L": 14,
+   "T": 0,
+   "win_pct": 0.3636,
+   "h2h": "3-8-0",
+   "median": "5-6-0",
+   "allplay": "50-71-0",
+   "allplay_pct": 0.4132,
+   "exp_h2h_wins": 4.55,
+   "luck": 43.0,
+   "perf_rating": 41.0,
+   "PF": 1229.02,
+   "PA": 1369.2,
+   "PPG": 111.73,
+   "G": 11,
+   "seed": 8,
+   "status": "out"
+  },
+  {
    "team": "MEANY",
    "W": 8,
-   "L": 12,
+   "L": 14,
    "T": 0,
-   "win_pct": 0.4,
-   "h2h": "4-6-0",
-   "median": "4-6-0",
-   "allplay": "42-68-0",
-   "allplay_pct": 0.3818,
-   "exp_h2h_wins": 3.82,
-   "luck": 50.9,
-   "perf_rating": 40.9,
-   "PF": 1099.68,
-   "PA": 1273.48,
-   "PPG": 109.97,
-   "G": 10,
-   "seed": 7,
+   "win_pct": 0.3636,
+   "h2h": "4-7-0",
+   "median": "4-7-0",
+   "allplay": "43-78-0",
+   "allplay_pct": 0.3554,
+   "exp_h2h_wins": 3.91,
+   "luck": 50.4,
+   "perf_rating": 38.3,
+   "PF": 1190.38,
+   "PA": 1394.64,
+   "PPG": 108.22,
+   "G": 11,
+   "seed": 9,
    "status": "out"
   },
   {
    "team": "KARDIAN",
    "W": 8,
-   "L": 12,
+   "L": 14,
    "T": 0,
-   "win_pct": 0.4,
-   "h2h": "4-6-0",
-   "median": "4-6-0",
-   "allplay": "37-73-0",
-   "allplay_pct": 0.3364,
-   "exp_h2h_wins": 3.36,
-   "luck": 53.2,
-   "perf_rating": 33.7,
-   "PF": 1053.5,
-   "PA": 1162.82,
-   "PPG": 105.35,
-   "G": 10,
-   "seed": 8,
-   "status": "out"
-  },
-  {
-   "team": "FIG",
-   "W": 7,
-   "L": 13,
-   "T": 0,
-   "win_pct": 0.35,
-   "h2h": "4-6-0",
-   "median": "3-7-0",
-   "allplay": "52-57-1",
-   "allplay_pct": 0.4773,
-   "exp_h2h_wins": 4.77,
-   "luck": 46.1,
-   "perf_rating": 47.5,
-   "PF": 1162.14,
-   "PA": 1211.54,
-   "PPG": 116.21,
-   "G": 10,
-   "seed": 9,
+   "win_pct": 0.3636,
+   "h2h": "4-7-0",
+   "median": "4-7-0",
+   "allplay": "39-82-0",
+   "allplay_pct": 0.3223,
+   "exp_h2h_wins": 3.55,
+   "luck": 52.1,
+   "perf_rating": 32.3,
+   "PF": 1148.12,
+   "PA": 1290.34,
+   "PPG": 104.37,
+   "G": 11,
+   "seed": 10,
    "status": "out"
   },
   {
    "team": "PHIL",
    "W": 7,
-   "L": 13,
+   "L": 15,
    "T": 0,
-   "win_pct": 0.35,
-   "h2h": "4-6-0",
-   "median": "3-7-0",
-   "allplay": "42-67-1",
-   "allplay_pct": 0.3864,
-   "exp_h2h_wins": 3.86,
-   "luck": 50.7,
-   "perf_rating": 39.5,
-   "PF": 1142.62,
-   "PA": 1203.08,
-   "PPG": 114.26,
-   "G": 10,
-   "seed": 10,
-   "status": "out"
-  },
-  {
-   "team": "GUARINO",
-   "W": 6,
-   "L": 14,
-   "T": 0,
-   "win_pct": 0.3,
-   "h2h": "2-8-0",
-   "median": "4-6-0",
-   "allplay": "42-68-0",
-   "allplay_pct": 0.3818,
-   "exp_h2h_wins": 3.82,
-   "luck": 40.9,
-   "perf_rating": 37.2,
-   "PF": 1107.86,
-   "PA": 1278.5,
-   "PPG": 110.79,
-   "G": 10,
+   "win_pct": 0.3182,
+   "h2h": "4-7-0",
+   "median": "3-8-0",
+   "allplay": "45-75-1",
+   "allplay_pct": 0.376,
+   "exp_h2h_wins": 4.14,
+   "luck": 49.4,
+   "perf_rating": 38.0,
+   "PF": 1239.86,
+   "PA": 1310.74,
+   "PPG": 112.71,
+   "G": 11,
    "seed": 11,
    "status": "out"
   },
   {
    "team": "VINO",
    "W": 5,
-   "L": 15,
+   "L": 17,
    "T": 0,
-   "win_pct": 0.25,
-   "h2h": "3-7-0",
-   "median": "2-8-0",
-   "allplay": "33-77-0",
-   "allplay_pct": 0.3,
+   "win_pct": 0.2273,
+   "h2h": "3-8-0",
+   "median": "2-9-0",
+   "allplay": "33-88-0",
+   "allplay_pct": 0.2727,
    "exp_h2h_wins": 3.0,
    "luck": 50.0,
-   "perf_rating": 30.9,
-   "PF": 1052.9,
-   "PA": 1186.26,
-   "PPG": 105.29,
-   "G": 10,
+   "perf_rating": 28.5,
+   "PF": 1134.5,
+   "PA": 1311.36,
+   "PPG": 103.14,
+   "G": 11,
    "seed": 12,
    "status": "out"
   }
@@ -1926,6 +1924,162 @@
    "rank": 4,
    "allplay": "8-3-0",
    "playoff": false
+  },
+  {
+   "week": 11,
+   "team": "MARZ",
+   "opp": "FIG",
+   "pf": 105.56,
+   "pa": 118.96,
+   "h2h": "L",
+   "median": 106.61,
+   "vs_median": "L",
+   "rank": 7,
+   "allplay": "5-6-0",
+   "playoff": false
+  },
+  {
+   "week": 11,
+   "team": "BJ",
+   "opp": "KARDIAN",
+   "pf": 127.52,
+   "pa": 94.62,
+   "h2h": "W",
+   "median": 106.61,
+   "vs_median": "W",
+   "rank": 2,
+   "allplay": "10-1-0",
+   "playoff": false
+  },
+  {
+   "week": 11,
+   "team": "VINO",
+   "opp": "PAT ROFF",
+   "pf": 81.6,
+   "pa": 125.1,
+   "h2h": "L",
+   "median": 106.61,
+   "vs_median": "L",
+   "rank": 12,
+   "allplay": "0-11-0",
+   "playoff": false
+  },
+  {
+   "week": 11,
+   "team": "PAT ROFF",
+   "opp": "VINO",
+   "pf": 125.1,
+   "pa": 81.6,
+   "h2h": "W",
+   "median": 106.61,
+   "vs_median": "W",
+   "rank": 3,
+   "allplay": "9-2-0",
+   "playoff": false
+  },
+  {
+   "week": 11,
+   "team": "ANT",
+   "opp": "PHIL",
+   "pf": 107.66,
+   "pa": 97.24,
+   "h2h": "W",
+   "median": 106.61,
+   "vs_median": "W",
+   "rank": 6,
+   "allplay": "6-5-0",
+   "playoff": false
+  },
+  {
+   "week": 11,
+   "team": "GUARINO",
+   "opp": "MEANY",
+   "pf": 121.16,
+   "pa": 90.7,
+   "h2h": "W",
+   "median": 106.61,
+   "vs_median": "W",
+   "rank": 4,
+   "allplay": "8-3-0",
+   "playoff": false
+  },
+  {
+   "week": 11,
+   "team": "ADAM B",
+   "opp": "MERGY",
+   "pf": 133.2,
+   "pa": 101.54,
+   "h2h": "W",
+   "median": 106.61,
+   "vs_median": "W",
+   "rank": 1,
+   "allplay": "11-0-0",
+   "playoff": false
+  },
+  {
+   "week": 11,
+   "team": "PHIL",
+   "opp": "ANT",
+   "pf": 97.24,
+   "pa": 107.66,
+   "h2h": "L",
+   "median": 106.61,
+   "vs_median": "L",
+   "rank": 9,
+   "allplay": "3-8-0",
+   "playoff": false
+  },
+  {
+   "week": 11,
+   "team": "KARDIAN",
+   "opp": "BJ",
+   "pf": 94.62,
+   "pa": 127.52,
+   "h2h": "L",
+   "median": 106.61,
+   "vs_median": "L",
+   "rank": 10,
+   "allplay": "2-9-0",
+   "playoff": false
+  },
+  {
+   "week": 11,
+   "team": "MERGY",
+   "opp": "ADAM B",
+   "pf": 101.54,
+   "pa": 133.2,
+   "h2h": "L",
+   "median": 106.61,
+   "vs_median": "L",
+   "rank": 8,
+   "allplay": "4-7-0",
+   "playoff": false
+  },
+  {
+   "week": 11,
+   "team": "FIG",
+   "opp": "MARZ",
+   "pf": 118.96,
+   "pa": 105.56,
+   "h2h": "W",
+   "median": 106.61,
+   "vs_median": "W",
+   "rank": 5,
+   "allplay": "7-4-0",
+   "playoff": false
+  },
+  {
+   "week": 11,
+   "team": "MEANY",
+   "opp": "GUARINO",
+   "pf": 90.7,
+   "pa": 121.16,
+   "h2h": "L",
+   "median": 106.61,
+   "vs_median": "L",
+   "rank": 11,
+   "allplay": "1-10-0",
+   "playoff": false
   }
  ],
  "categories": {
@@ -2062,29 +2216,29 @@
    },
    "FIG": {
     "raw": {
-     "Pass Yds": 2256.0,
+     "Pass Yds": 2545.0,
      "Pass TD": 14.0,
      "Pass INT": 3.0
     },
     "pts": {
-     "Pass Yds": 90.24,
+     "Pass Yds": 101.8,
      "Pass TD": 56.0,
      "Pass INT": -6.0
     },
-    "total": 140.24
+    "total": 151.8
    },
    "MEANY": {
     "raw": {
-     "Pass Yds": 3067.0,
-     "Pass TD": 27.0,
+     "Pass Yds": 3367.0,
+     "Pass TD": 29.0,
      "Pass INT": 7.0
     },
     "pts": {
-     "Pass Yds": 122.68,
-     "Pass TD": 108.0,
+     "Pass Yds": 134.68,
+     "Pass TD": 116.0,
      "Pass INT": -14.0
     },
-    "total": 216.68
+    "total": 236.68
    }
   },
   "Rushing": {
@@ -2178,14 +2332,14 @@
    },
    "KARDIAN": {
     "raw": {
-     "Rush Yds": 1227.0,
+     "Rush Yds": 1253.0,
      "Rush TD": 11.0
     },
     "pts": {
-     "Rush Yds": 122.7,
+     "Rush Yds": 125.3,
      "Rush TD": 66.0
     },
-    "total": 188.7
+    "total": 191.3
    },
    "MERGY": {
     "raw": {
@@ -2200,25 +2354,25 @@
    },
    "FIG": {
     "raw": {
-     "Rush Yds": 1713.0,
+     "Rush Yds": 1774.0,
      "Rush TD": 8.0
     },
     "pts": {
-     "Rush Yds": 171.3,
+     "Rush Yds": 177.4,
      "Rush TD": 48.0
     },
-    "total": 219.3
+    "total": 225.4
    },
    "MEANY": {
     "raw": {
-     "Rush Yds": 1806.0,
+     "Rush Yds": 1805.0,
      "Rush TD": 12.0
     },
     "pts": {
-     "Rush Yds": 180.6,
+     "Rush Yds": 180.5,
      "Rush TD": 72.0
     },
-    "total": 252.6
+    "total": 252.5
    }
   },
   "Receiving": {
@@ -2263,16 +2417,16 @@
    },
    "PAT ROFF": {
     "raw": {
-     "Receptions": 250.0,
-     "Rec Yds": 2680.0,
-     "Rec TD": 16.0
+     "Receptions": 252.0,
+     "Rec Yds": 2723.0,
+     "Rec TD": 17.0
     },
     "pts": {
-     "Receptions": 250.0,
-     "Rec Yds": 268.0,
-     "Rec TD": 96.0
+     "Receptions": 252.0,
+     "Rec Yds": 272.3,
+     "Rec TD": 102.0
     },
-    "total": 614.0
+    "total": 626.3
    },
    "ANT": {
     "raw": {
@@ -2289,29 +2443,29 @@
    },
    "GUARINO": {
     "raw": {
-     "Receptions": 225.0,
-     "Rec Yds": 2600.0,
+     "Receptions": 230.0,
+     "Rec Yds": 2677.0,
      "Rec TD": 17.0
     },
     "pts": {
-     "Receptions": 225.0,
-     "Rec Yds": 260.0,
+     "Receptions": 230.0,
+     "Rec Yds": 267.7,
      "Rec TD": 102.0
     },
-    "total": 587.0
+    "total": 599.7
    },
    "ADAM B": {
     "raw": {
-     "Receptions": 287.0,
-     "Rec Yds": 3560.0,
+     "Receptions": 291.0,
+     "Rec Yds": 3605.0,
      "Rec TD": 30.0
     },
     "pts": {
-     "Receptions": 287.0,
-     "Rec Yds": 356.0,
+     "Receptions": 291.0,
+     "Rec Yds": 360.5,
      "Rec TD": 180.0
     },
-    "total": 823.0
+    "total": 831.5
    },
    "PHIL": {
     "raw": {
@@ -2328,42 +2482,42 @@
    },
    "KARDIAN": {
     "raw": {
-     "Receptions": 252.0,
-     "Rec Yds": 2854.0,
+     "Receptions": 260.0,
+     "Rec Yds": 2991.0,
      "Rec TD": 18.0
     },
     "pts": {
-     "Receptions": 252.0,
-     "Rec Yds": 285.4,
+     "Receptions": 260.0,
+     "Rec Yds": 299.1,
      "Rec TD": 108.0
     },
-    "total": 645.4
+    "total": 667.1
    },
    "MERGY": {
     "raw": {
-     "Receptions": 285.0,
-     "Rec Yds": 3189.0,
+     "Receptions": 290.0,
+     "Rec Yds": 3220.0,
      "Rec TD": 19.0
     },
     "pts": {
-     "Receptions": 285.0,
-     "Rec Yds": 318.9,
+     "Receptions": 290.0,
+     "Rec Yds": 322.0,
      "Rec TD": 114.0
     },
-    "total": 717.9
+    "total": 726.0
    },
    "FIG": {
     "raw": {
-     "Receptions": 289.0,
-     "Rec Yds": 3209.0,
+     "Receptions": 294.0,
+     "Rec Yds": 3239.0,
      "Rec TD": 20.0
     },
     "pts": {
-     "Receptions": 289.0,
-     "Rec Yds": 320.9,
+     "Receptions": 294.0,
+     "Rec Yds": 323.9,
      "Rec TD": 120.0
     },
-    "total": 729.9
+    "total": 737.9
    },
    "MEANY": {
     "raw": {
@@ -2650,28 +2804,28 @@
     "raw": {
      "FG 0-19": 0.0,
      "FG 20-29": 6.0,
-     "FG 30-39": 2.0,
+     "FG 30-39": 3.0,
      "FG 40-49": 2.0,
-     "FG 50+": 6.0,
+     "FG 50+": 7.0,
      "FG Miss 0-19": 0.0,
      "FG Miss 20-29": 0.0,
      "FG Miss 30-39": 0.0,
-     "PAT": 35.0,
+     "PAT": 37.0,
      "PAT Miss": 0.0
     },
     "pts": {
      "FG 0-19": 0.0,
      "FG 20-29": 18.0,
-     "FG 30-39": 6.0,
+     "FG 30-39": 9.0,
      "FG 40-49": 8.0,
-     "FG 50+": 30.0,
+     "FG 50+": 35.0,
      "FG Miss 0-19": 0.0,
      "FG Miss 20-29": 0.0,
      "FG Miss 30-39": 0.0,
-     "PAT": 35.0,
+     "PAT": 37.0,
      "PAT Miss": 0.0
     },
-    "total": 97.0
+    "total": 107.0
    },
    "GUARINO": {
     "raw": {
@@ -2882,9 +3036,9 @@
      "Safety": 0.0,
      "Blocked Kick": 0.0,
      "Def Return TD": 0.0,
-     "DST Pts Allowed": -100.0
+     "DST Pts Allowed": 6.0
     },
-    "total": -41.0
+    "total": 65.0
    },
    "BJ": {
     "raw": {
@@ -2904,9 +3058,9 @@
      "Safety": 5.0,
      "Blocked Kick": 0.0,
      "Def Return TD": 0.0,
-     "DST Pts Allowed": -114.0
+     "DST Pts Allowed": 14.0
     },
-    "total": -44.0
+    "total": 84.0
    },
    "VINO": {
     "raw": {
@@ -2926,9 +3080,9 @@
      "Safety": 0.0,
      "Blocked Kick": 2.0,
      "Def Return TD": 0.0,
-     "DST Pts Allowed": -75.0
+     "DST Pts Allowed": 7.0
     },
-    "total": -3.0
+    "total": 79.0
    },
    "PAT ROFF": {
     "raw": {
@@ -2948,9 +3102,9 @@
      "Safety": 0.0,
      "Blocked Kick": 2.0,
      "Def Return TD": 6.0,
-     "DST Pts Allowed": -89.0
+     "DST Pts Allowed": 24.0
     },
-    "total": -7.0
+    "total": 106.0
    },
    "ANT": {
     "raw": {
@@ -2970,9 +3124,9 @@
      "Safety": 0.0,
      "Blocked Kick": 0.0,
      "Def Return TD": 0.0,
-     "DST Pts Allowed": -70.0
+     "DST Pts Allowed": 28.0
     },
-    "total": -13.0
+    "total": 85.0
    },
    "GUARINO": {
     "raw": {
@@ -2992,9 +3146,9 @@
      "Safety": 5.0,
      "Blocked Kick": 4.0,
      "Def Return TD": 0.0,
-     "DST Pts Allowed": -97.0
+     "DST Pts Allowed": 11.0
     },
-    "total": -26.0
+    "total": 82.0
    },
    "ADAM B": {
     "raw": {
@@ -3014,9 +3168,9 @@
      "Safety": 0.0,
      "Blocked Kick": 0.0,
      "Def Return TD": 0.0,
-     "DST Pts Allowed": -107.0
+     "DST Pts Allowed": 18.0
     },
-    "total": -56.0
+    "total": 69.0
    },
    "PHIL": {
     "raw": {
@@ -3036,9 +3190,9 @@
      "Safety": 5.0,
      "Blocked Kick": 2.0,
      "Def Return TD": 0.0,
-     "DST Pts Allowed": -93.0
+     "DST Pts Allowed": 4.0
     },
-    "total": -38.0
+    "total": 59.0
    },
    "KARDIAN": {
     "raw": {
@@ -3058,9 +3212,9 @@
      "Safety": 0.0,
      "Blocked Kick": 0.0,
      "Def Return TD": 0.0,
-     "DST Pts Allowed": -59.0
+     "DST Pts Allowed": 11.0
     },
-    "total": -1.0
+    "total": 69.0
    },
    "MERGY": {
     "raw": {
@@ -3080,9 +3234,9 @@
      "Safety": 0.0,
      "Blocked Kick": 0.0,
      "Def Return TD": 0.0,
-     "DST Pts Allowed": -66.0
+     "DST Pts Allowed": 27.0
     },
-    "total": -2.0
+    "total": 91.0
    },
    "FIG": {
     "raw": {
@@ -3102,9 +3256,9 @@
      "Safety": 0.0,
      "Blocked Kick": 0.0,
      "Def Return TD": 0.0,
-     "DST Pts Allowed": -69.0
+     "DST Pts Allowed": 24.0
     },
-    "total": -27.0
+    "total": 66.0
    },
    "MEANY": {
     "raw": {
@@ -3124,9 +3278,9 @@
      "Safety": 0.0,
      "Blocked Kick": 2.0,
      "Def Return TD": 0.0,
-     "DST Pts Allowed": -59.0
+     "DST Pts Allowed": 12.0
     },
-    "total": -10.0
+    "total": 61.0
    }
   }
  },
@@ -3137,7 +3291,7 @@
    "WR": 433.9,
    "TE": 120.9,
    "K": 89.0,
-   "DEF": -41.0
+   "DEF": 65.0
   },
   "BJ": {
    "QB": 197.9,
@@ -3145,7 +3299,7 @@
    "WR": 416.1,
    "TE": 148.7,
    "K": 84.0,
-   "DEF": -44.0
+   "DEF": 84.0
   },
   "VINO": {
    "QB": 181.1,
@@ -3153,39 +3307,39 @@
    "WR": 349.5,
    "TE": 134.6,
    "K": 104.0,
-   "DEF": -3.0
+   "DEF": 79.0
   },
   "PAT ROFF": {
    "QB": 228.62,
    "RB": 535.18,
-   "WR": 315.5,
+   "WR": 327.8,
    "TE": 186.3,
    "K": 125.0,
-   "DEF": -7.0
+   "DEF": 106.0
   },
   "ANT": {
    "QB": 195.14,
    "RB": 359.6,
    "WR": 493.6,
    "TE": 100.7,
-   "K": 97.0,
-   "DEF": -13.0
+   "K": 107.0,
+   "DEF": 85.0
   },
   "GUARINO": {
    "QB": 158.22,
    "RB": 383.2,
    "WR": 393.7,
-   "TE": 73.2,
+   "TE": 85.9,
    "K": 126.0,
-   "DEF": -26.0
+   "DEF": 82.0
   },
   "ADAM B": {
    "QB": 237.76,
    "RB": 446.3,
-   "WR": 416.6,
+   "WR": 425.1,
    "TE": 161.0,
    "K": 106.0,
-   "DEF": -56.0
+   "DEF": 69.0
   },
   "PHIL": {
    "QB": 213.88,
@@ -3193,39 +3347,39 @@
    "WR": 362.48,
    "TE": 97.7,
    "K": 85.0,
-   "DEF": -38.0
+   "DEF": 59.0
   },
   "KARDIAN": {
    "QB": 163.76,
-   "RB": 245.2,
+   "RB": 258.9,
    "WR": 463.56,
-   "TE": 93.3,
+   "TE": 103.9,
    "K": 89.0,
-   "DEF": -1.0
+   "DEF": 69.0
   },
   "MERGY": {
    "QB": 210.18,
    "RB": 293.2,
-   "WR": 416.6,
+   "WR": 424.7,
    "TE": 202.6,
    "K": 124.0,
-   "DEF": -2.0
+   "DEF": 91.0
   },
   "FIG": {
-   "QB": 178.74,
-   "RB": 322.7,
+   "QB": 195.8,
+   "RB": 331.3,
    "WR": 474.6,
    "TE": 99.4,
    "K": 114.0,
-   "DEF": -27.0
+   "DEF": 66.0
   },
   "MEANY": {
-   "QB": 242.78,
+   "QB": 262.68,
    "RB": 344.4,
    "WR": 327.7,
    "TE": 125.6,
    "K": 69.0,
-   "DEF": -10.0
+   "DEF": 61.0
   }
  },
  "players": [
@@ -3316,6 +3470,35 @@
    }
   },
   {
+   "owner": "MEANY",
+   "player": "Joe Burrow",
+   "nfl": "CIN",
+   "pos": "QB",
+   "gp": 10,
+   "points": 252.2,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 3095.0,
+    "Pass TD": 29.0,
+    "Pass INT": 6.0,
+    "Rush Yds": 84.0,
+    "Rush TD": 3.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 1.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 123.8,
+    "Pass TD": 116.0,
+    "Pass INT": -12.0,
+    "Rush Yds": 8.4,
+    "Rush TD": 18.0,
+    "Fumbles Lost": -2.0
+   }
+  },
+  {
    "owner": "ADAM B",
    "player": "Dak Prescott",
    "nfl": "DAL",
@@ -3374,35 +3557,6 @@
     "Receptions": 1.0,
     "Rec Yds": 0.1,
     "2-Pt Conv": 2.0,
-    "Fumbles Lost": -2.0
-   }
-  },
-  {
-   "owner": "MEANY",
-   "player": "Joe Burrow",
-   "nfl": "CIN",
-   "pos": "QB",
-   "gp": 9,
-   "points": 232.3,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 2795.0,
-    "Pass TD": 27.0,
-    "Pass INT": 6.0,
-    "Rush Yds": 85.0,
-    "Rush TD": 3.0,
-    "Receptions": 0.0,
-    "Rec Yds": 0.0,
-    "Rec TD": 0.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 1.0
-   },
-   "pts_by_cat": {
-    "Pass Yds": 111.8,
-    "Pass TD": 108.0,
-    "Pass INT": -12.0,
-    "Rush Yds": 8.5,
-    "Rush TD": 18.0,
     "Fumbles Lost": -2.0
    }
   },
@@ -3466,6 +3620,32 @@
    }
   },
   {
+   "owner": "MERGY",
+   "player": "Ja'Marr Chase",
+   "nfl": "CIN",
+   "pos": "WR",
+   "gp": 10,
+   "points": 201.9,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 69.0,
+    "Rec Yds": 909.0,
+    "Rec TD": 7.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 69.0,
+    "Rec Yds": 90.9,
+    "Rec TD": 42.0
+   }
+  },
+  {
    "owner": "BJ",
    "player": "Amon-Ra St. Brown",
    "nfl": "DET",
@@ -3522,7 +3702,7 @@
   },
   {
    "owner": "GUARINO",
-   "player": "Kenneth Walker IIIO",
+   "player": "Kenneth Walker IIIQ",
    "nfl": "KC",
    "pos": "RB",
    "gp": 8,
@@ -3546,32 +3726,6 @@
     "Receptions": 26.0,
     "Rec Yds": 17.2,
     "Rec TD": 24.0
-   }
-  },
-  {
-   "owner": "MERGY",
-   "player": "Ja'Marr Chase",
-   "nfl": "CIN",
-   "pos": "WR",
-   "gp": 9,
-   "points": 193.8,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 0.0,
-    "Rush TD": 0.0,
-    "Receptions": 64.0,
-    "Rec Yds": 878.0,
-    "Rec TD": 7.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Receptions": 64.0,
-    "Rec Yds": 87.8,
-    "Rec TD": 42.0
    }
   },
   {
@@ -3683,6 +3837,32 @@
     "Receptions": 87.0,
     "Rec Yds": 68.9,
     "Rec TD": 30.0
+   }
+  },
+  {
+   "owner": "PAT ROFF",
+   "player": "Tee Higgins",
+   "nfl": "CIN",
+   "pos": "WR",
+   "gp": 10,
+   "points": 183.7,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 55.0,
+    "Rec Yds": 867.0,
+    "Rec TD": 7.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 55.0,
+    "Rec Yds": 86.7,
+    "Rec TD": 42.0
    }
   },
   {
@@ -3823,32 +4003,6 @@
     "Rush Yds": 0.6,
     "Receptions": 57.0,
     "Rec Yds": 78.0,
-    "Rec TD": 36.0
-   }
-  },
-  {
-   "owner": "PAT ROFF",
-   "player": "Tee Higgins",
-   "nfl": "CIN",
-   "pos": "WR",
-   "gp": 9,
-   "points": 171.4,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 0.0,
-    "Rush TD": 0.0,
-    "Receptions": 53.0,
-    "Rec Yds": 824.0,
-    "Rec TD": 6.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Receptions": 53.0,
-    "Rec Yds": 82.4,
     "Rec TD": 36.0
    }
   },
@@ -4414,6 +4568,35 @@
    }
   },
   {
+   "owner": "FIG",
+   "player": "Chase Brown",
+   "nfl": "CIN",
+   "pos": "RB",
+   "gp": 10,
+   "points": 138.3,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 447.0,
+    "Rush TD": 1.0,
+    "Receptions": 52.0,
+    "Rec Yds": 276.0,
+    "Rec TD": 2.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 2.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 44.7,
+    "Rush TD": 6.0,
+    "Receptions": 52.0,
+    "Rec Yds": 27.6,
+    "Rec TD": 12.0,
+    "Fumbles Lost": -4.0
+   }
+  },
+  {
    "owner": "MEANY",
    "player": "Garrett Wilson",
    "nfl": "NYJ",
@@ -4437,6 +4620,35 @@
     "Receptions": 53.0,
     "Rec Yds": 67.2,
     "Rec TD": 18.0,
+    "Fumbles Lost": -2.0
+   }
+  },
+  {
+   "owner": "FIG",
+   "player": "Jayden Daniels",
+   "nfl": "WAS",
+   "pos": "QB",
+   "gp": 7,
+   "points": 132.26,
+   "stats": {
+    "2-Pt Conv": 1.0,
+    "Pass Yds": 1539.0,
+    "Pass TD": 7.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 307.0,
+    "Rush TD": 2.0,
+    "Receptions": 0.0,
+    "Rec Yds": 0.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 1.0
+   },
+   "pts_by_cat": {
+    "Pass Yds": 61.56,
+    "Pass TD": 28.0,
+    "Rush Yds": 30.7,
+    "Rush TD": 12.0,
+    "2-Pt Conv": 2.0,
     "Fumbles Lost": -2.0
    }
   },
@@ -4465,35 +4677,6 @@
     "Receptions": 40.0,
     "Rec Yds": 53.6,
     "Rec TD": 36.0
-   }
-  },
-  {
-   "owner": "FIG",
-   "player": "Chase Brown",
-   "nfl": "CIN",
-   "pos": "RB",
-   "gp": 9,
-   "points": 129.7,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 441.0,
-    "Rush TD": 1.0,
-    "Receptions": 47.0,
-    "Rec Yds": 246.0,
-    "Rec TD": 2.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 2.0
-   },
-   "pts_by_cat": {
-    "Rush Yds": 44.1,
-    "Rush TD": 6.0,
-    "Receptions": 47.0,
-    "Rec Yds": 24.6,
-    "Rec TD": 12.0,
-    "Fumbles Lost": -4.0
    }
   },
   {
@@ -4606,35 +4789,6 @@
     "Receptions": 16.0,
     "Rec Yds": 11.4,
     "Rec TD": 6.0
-   }
-  },
-  {
-   "owner": "FIG",
-   "player": "Jayden Daniels",
-   "nfl": "WAS",
-   "pos": "QB",
-   "gp": 6,
-   "points": 115.2,
-   "stats": {
-    "2-Pt Conv": 1.0,
-    "Pass Yds": 1250.0,
-    "Pass TD": 7.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 252.0,
-    "Rush TD": 2.0,
-    "Receptions": 0.0,
-    "Rec Yds": 0.0,
-    "Rec TD": 0.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 1.0
-   },
-   "pts_by_cat": {
-    "Pass Yds": 50.0,
-    "Pass TD": 28.0,
-    "Rush Yds": 25.2,
-    "Rush TD": 12.0,
-    "2-Pt Conv": 2.0,
-    "Fumbles Lost": -2.0
    }
   },
   {
@@ -4941,6 +5095,33 @@
    }
   },
   {
+   "owner": "ANT",
+   "player": "Evan McPherson",
+   "nfl": "CIN",
+   "pos": "K",
+   "gp": 10,
+   "points": 95.0,
+   "stats": {
+    "FG 0-19": 0.0,
+    "FG 20-29": 4.0,
+    "FG 30-39": 3.0,
+    "FG 40-49": 1.0,
+    "FG 50+": 7.0,
+    "FG Miss 0-19": 0.0,
+    "FG Miss 20-29": 0.0,
+    "FG Miss 30-39": 0.0,
+    "PAT": 35.0,
+    "PAT Miss": 0.0
+   },
+   "pts_by_cat": {
+    "FG 20-29": 12.0,
+    "FG 30-39": 9.0,
+    "FG 40-49": 4.0,
+    "FG 50+": 35.0,
+    "PAT": 35.0
+   }
+  },
+  {
    "owner": "KARDIAN",
    "player": "Tucker Kraft",
    "nfl": "GB",
@@ -5130,33 +5311,6 @@
     "FG 40-49": 28.0,
     "FG 50+": 15.0,
     "PAT": 15.0
-   }
-  },
-  {
-   "owner": "ANT",
-   "player": "Evan McPherson",
-   "nfl": "CIN",
-   "pos": "K",
-   "gp": 9,
-   "points": 85.0,
-   "stats": {
-    "FG 0-19": 0.0,
-    "FG 20-29": 4.0,
-    "FG 30-39": 2.0,
-    "FG 40-49": 1.0,
-    "FG 50+": 6.0,
-    "FG Miss 0-19": 0.0,
-    "FG Miss 20-29": 0.0,
-    "FG Miss 30-39": 0.0,
-    "PAT": 33.0,
-    "PAT Miss": 0.0
-   },
-   "pts_by_cat": {
-    "FG 20-29": 12.0,
-    "FG 30-39": 6.0,
-    "FG 40-49": 4.0,
-    "FG 50+": 30.0,
-    "PAT": 33.0
    }
   },
   {
@@ -7668,6 +7822,32 @@
    }
   },
   {
+   "owner": "KARDIAN",
+   "player": "Samaje Perine",
+   "nfl": "CIN",
+   "pos": "RB",
+   "gp": 2,
+   "points": 16.6,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 36.0,
+    "Rush TD": 0.0,
+    "Receptions": 5.0,
+    "Rec Yds": 80.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Rush Yds": 3.6,
+    "Receptions": 5.0,
+    "Rec Yds": 8.0
+   }
+  },
+  {
    "owner": "ANT",
    "player": "DeMario Douglas",
    "nfl": "NE",
@@ -8019,6 +8199,31 @@
   },
   {
    "owner": "GUARINO",
+   "player": "Mike Gesicki",
+   "nfl": "CIN",
+   "pos": "TE",
+   "gp": 1,
+   "points": 12.7,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 5.0,
+    "Rec Yds": 77.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 5.0,
+    "Rec Yds": 7.7
+   }
+  },
+  {
+   "owner": "GUARINO",
    "player": "Kirk Cousins",
    "nfl": "MIN",
    "pos": "QB",
@@ -8265,6 +8470,31 @@
     "Def INT": 2.0,
     "Fum Rec": 2.0,
     "Def TD": 6.0
+   }
+  },
+  {
+   "owner": "KARDIAN",
+   "player": "Chig Okonkwo",
+   "nfl": "WAS",
+   "pos": "TE",
+   "gp": 1,
+   "points": 10.6,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 4.0,
+    "Rec Yds": 66.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 4.0,
+    "Rec Yds": 6.6
    }
   },
   {
@@ -8620,6 +8850,31 @@
    "pts_by_cat": {
     "Receptions": 4.0,
     "Rec Yds": 4.9
+   }
+  },
+  {
+   "owner": "ADAM B",
+   "player": "Stefon Diggs",
+   "nfl": "WAS",
+   "pos": "WR",
+   "gp": 1,
+   "points": 8.5,
+   "stats": {
+    "2-Pt Conv": 0.0,
+    "Pass Yds": 0.0,
+    "Pass TD": 0.0,
+    "Pass INT": 0.0,
+    "Rush Yds": 0.0,
+    "Rush TD": 0.0,
+    "Receptions": 4.0,
+    "Rec Yds": 45.0,
+    "Rec TD": 0.0,
+    "Return TD": 0.0,
+    "Fumbles Lost": 0.0
+   },
+   "pts_by_cat": {
+    "Receptions": 4.0,
+    "Rec Yds": 4.5
    }
   },
   {
@@ -9610,32 +9865,6 @@
    },
    "pts_by_cat": {
     "Sacks": 3.0
-   }
-  },
-  {
-   "owner": "KARDIAN",
-   "player": "Samaje Perine",
-   "nfl": "CIN",
-   "pos": "RB",
-   "gp": 1,
-   "points": 2.9,
-   "stats": {
-    "2-Pt Conv": 0.0,
-    "Pass Yds": 0.0,
-    "Pass TD": 0.0,
-    "Pass INT": 0.0,
-    "Rush Yds": 10.0,
-    "Rush TD": 0.0,
-    "Receptions": 1.0,
-    "Rec Yds": 9.0,
-    "Rec TD": 0.0,
-    "Return TD": 0.0,
-    "Fumbles Lost": 0.0
-   },
-   "pts_by_cat": {
-    "Rush Yds": 1.0,
-    "Receptions": 1.0,
-    "Rec Yds": 0.9
    }
   },
   {
