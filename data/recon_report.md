@@ -1,5 +1,5 @@
 # TTTR Reconciliation: PASS
-Updated 2026-11-24 21:26 UTC | Weeks entered: 11
+Updated 2026-11-25 20:34 UTC | Weeks entered: 11
 
 | Team | Weekly Total | Calculated | DST Pts Allowed | DST Games | Check |
 |---|---|---|---|---|---|
